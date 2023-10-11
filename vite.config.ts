@@ -10,6 +10,7 @@ import ElementPlus from 'unplugin-element-plus/vite';
 // import postcsspxtoviewport8plugin from 'postcss-px-to-viewport-8-plugin';
 
 export default defineConfig({
+  base: './',
   plugins: [
     vue(),
     AutoImport({
