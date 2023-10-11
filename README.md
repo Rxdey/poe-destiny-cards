@@ -3,4 +3,4 @@
 再也不用担心赌瘾犯了
 
 
-[地址](https://rxdey.github.io/poe-destiny-cards/dist)
+[地址](https://poe-destiny-cards.vercel.app/)

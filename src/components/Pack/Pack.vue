@@ -70,7 +70,7 @@ const giveMeCard = () => {
     const cardList = [
         'the-apothecary',
         'house-of-mirrors',
-        'the-nurse',
+        'the-doctor',
         'the-insane-cat',
         'the-fiend',
         'the-price-of-devotion',
