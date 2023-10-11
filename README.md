@@ -2,5 +2,4 @@
 
 再也不用担心赌瘾犯了
 
-
-[地址](https://poe-destiny-cards.vercel.app/)
+[地址](http://poe.rxdey.top/)
