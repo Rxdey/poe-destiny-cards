@@ -1,0 +1,46 @@
+{
+  "name": "poe-destiny-cards",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify-json/ep": "^1.1.12",
+    "@iconify/vue": "^4.1.1",
+    "@types/uuid": "^9.0.5",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^1.5.0",
+    "dayjs": "^2.0.0-alpha.4",
+    "element-plus": "^2.3.14",
+    "less": "^4.2.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "random": "^4.1.0",
+    "reset.css": "^2.0.2",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.4",
+    "vue-lazyload": "^3.0.0",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "less-loader": "^11.1.3",
+    "postcss": "^8.4.30",
+    "postcss-loader": "^7.3.3",
+    "postcss-px-to-viewport-8-plugin": "^1.2.2",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-icons": "^0.17.0",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.19"
+  }
+}

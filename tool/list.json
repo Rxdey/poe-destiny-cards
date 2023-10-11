@@ -1,0 +1,6890 @@
+[
+    {
+        "name": "黑暗三面",
+        "stack": "1 / 7",
+        "id": "three-faces-in-the-dark",
+        "type": "Three Faces in the Dark",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "混沌石 X 3"
+            }
+        ]
+    },
+    {
+        "name": "疯医",
+        "stack": "1 / 8",
+        "id": "the-doctor",
+        "type": "The Doctor",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "猎首"
+            }
+        ]
+    },
+    {
+        "name": "隐士",
+        "stack": "1 / 9",
+        "id": "the-hermit",
+        "type": "The Hermit",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "生机之记"
+            }
+        ]
+    },
+    {
+        "name": "兰塔朵迷惘之爱",
+        "stack": "1 / 7",
+        "id": "lantadors-lost-love",
+        "type": "Lantador's Lost Love",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "双玉戒指"
+            }
+        ]
+    },
+    {
+        "name": "铁匠的赠礼",
+        "stack": "1 / 6",
+        "id": "the-metalsmiths-gift",
+        "type": "The Metalsmith's Gift",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "三相戒指"
+            }
+        ]
+    },
+    {
+        "name": "战火锻造",
+        "stack": "1 / 5",
+        "id": "the-battle-born",
+        "type": "The Battle Born",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "斧"
+            }
+        ]
+    },
+    {
+        "name": "斗士",
+        "stack": "1 / 5",
+        "id": "the-gladiator",
+        "type": "The Gladiator",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "梦魇战盔"
+            }
+        ]
+    },
+    {
+        "name": "学者",
+        "stack": "1 / 3",
+        "id": "the-scholar",
+        "type": "The Scholar",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "知识卷轴 X 40"
+            }
+        ]
+    },
+    {
+        "name": "枯骨皇帝",
+        "stack": "1 / 8",
+        "id": "the-brittle-emperor",
+        "type": "The Brittle Emperor",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "福尔的忠诚之符"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "诗人",
+        "stack": "1 / 9",
+        "id": "the-poet",
+        "type": "The Poet",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "堕落之血"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "食腐掠鸦",
+        "stack": "1 / 4",
+        "id": "the-carrion-crow",
+        "type": "The Carrion Crow",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "附有生命词缀的护具"
+            }
+        ]
+    },
+    {
+        "name": "希望",
+        "stack": "1 / 5",
+        "id": "hope",
+        "type": "Hope",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "三相戒指"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "劣魔",
+        "stack": "1 / 11",
+        "id": "the-fiend",
+        "type": "The Fiend",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "猎首"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "三者之诞",
+        "stack": "1 / 3",
+        "id": "birth-of-the-three",
+        "type": "Birth of the Three",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "女神的灵缚"
+            }
+        ]
+    },
+    {
+        "name": "薇妮雅的信物",
+        "stack": "1 / 5",
+        "id": "vinias-token",
+        "type": "Vinia's Token",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "后悔石 X 10"
+            }
+        ]
+    },
+    {
+        "name": "召唤师",
+        "stack": "1 / 6",
+        "id": "the-summoner",
+        "type": "The Summoner",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "召唤生物宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            }
+        ]
+    },
+    {
+        "name": "巨变",
+        "stack": "1 / 13",
+        "id": "the-cataclysm",
+        "type": "The Cataclysm",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 21 法术宝石"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "饥饿",
+        "stack": "1 / 9",
+        "id": "the-hunger",
+        "type": "The Hunger",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "恨意"
+            }
+        ]
+    },
+    {
+        "name": "宝箱",
+        "stack": "1 / 12",
+        "id": "the-hoarder",
+        "type": "The Hoarder",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "崇高石"
+            }
+        ]
+    },
+    {
+        "name": "酒醉贵族",
+        "stack": "1 / 8",
+        "id": "the-drunken-aristocrat",
+        "type": "The Drunken Aristocrat",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "宝视精华"
+            }
+        ]
+    },
+    {
+        "name": "烈日",
+        "stack": "1 / 7",
+        "id": "the-sun",
+        "type": "The Sun",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "烈炎之翼"
+            }
+        ]
+    },
+    {
+        "name": "典狱长",
+        "stack": "1 / 4",
+        "id": "the-warden",
+        "type": "The Warden",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "项链"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "创痕之原",
+        "stack": "1 / 9",
+        "id": "the-scarred-meadow",
+        "type": "The Scarred Meadow",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "覆灭之兆"
+            }
+        ]
+    },
+    {
+        "name": "黑暗术者",
+        "stack": "1 / 6",
+        "id": "the-dark-mage",
+        "type": "The Dark Mage",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连长杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "55"
+            }
+        ]
+    },
+    {
+        "name": "珠宝匠",
+        "stack": "1 / 3",
+        "id": "the-gemcutter",
+        "type": "The Gemcutter",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "珠宝匠的棱镜"
+            }
+        ]
+    },
+    {
+        "name": "赌徒",
+        "stack": "1 / 5",
+        "id": "the-gambler",
+        "type": "The Gambler",
+        "explicitMod": [
+            {
+                "type": "divination",
+                "value": "命运卡"
+            }
+        ]
+    },
+    {
+        "name": "情人",
+        "stack": "1 / 2",
+        "id": "the-lover",
+        "type": "The Lover",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "饰品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "79"
+            }
+        ]
+    },
+    {
+        "name": "浑沌性情",
+        "stack": "",
+        "id": "chaotic-disposition",
+        "type": "Chaotic Disposition",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": " 5 X 混沌石"
+            }
+        ]
+    },
+    {
+        "name": "力量之道",
+        "stack": "1 / 7",
+        "id": "the-road-to-power",
+        "type": "The Road to Power",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "密文单手武器"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "复仇者",
+        "stack": "1 / 12",
+        "id": "the-avenger",
+        "type": "The Avenger",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "沉默之雷"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "帝运",
+        "stack": "1 / 5",
+        "id": "emperors-luck",
+        "type": "Emperor's Luck",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5 X 通货物品"
+            }
+        ]
+    },
+    {
+        "name": "失落遗骨",
+        "stack": "1 / 10",
+        "id": "time-lost-relic",
+        "type": "Time-Lost Relic",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "世界特殊物品"
+            }
+        ]
+    },
+    {
+        "name": "好运连连",
+        "stack": "1 / 7",
+        "id": "lucky-connections",
+        "type": "Lucky Connections",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "20 X 链结石"
+            }
+        ]
+    },
+    {
+        "name": "盛宴",
+        "stack": "1 / 5",
+        "id": "the-feast",
+        "type": "The Feast",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "罗米拉的潜力之环"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "混沌之雨",
+        "stack": "1 / 8",
+        "id": "rain-of-chaos",
+        "type": "Rain of Chaos",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "混沌石"
+            }
+        ]
+    },
+    {
+        "name": "凝视者",
+        "stack": "1 / 12",
+        "id": "the-watcher",
+        "type": "The Watcher",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "邪眼之冠"
+            }
+        ]
+    },
+    {
+        "name": "咒语",
+        "stack": "1 / 4",
+        "id": "the-incantation",
+        "type": "The Incantation",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冰点低语"
+            }
+        ]
+    },
+    {
+        "name": "饥渴之占",
+        "stack": "1 / 9",
+        "id": "coveted-possession",
+        "type": "Coveted Possession",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5 X 富豪石"
+            }
+        ]
+    },
+    {
+        "name": "王者之心",
+        "stack": "1 / 8",
+        "id": "the-kings-heart",
+        "type": "The King's Heart",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冈姆的壮志"
+            }
+        ]
+    },
+    {
+        "name": "弃财求生",
+        "stack": "1 / 5",
+        "id": "abandoned-wealth",
+        "type": "Abandoned Wealth",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3 X 崇高石"
+            }
+        ]
+    },
+    {
+        "name": "风",
+        "stack": "1 / 7",
+        "id": "the-wind",
+        "type": "The Wind",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂风"
+            }
+        ]
+    },
+    {
+        "name": "协约",
+        "stack": "1 / 9",
+        "id": "the-pact",
+        "type": "The Pact",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "誓约"
+            }
+        ]
+    },
+    {
+        "name": "宝石匠的允诺",
+        "stack": "1 / 3",
+        "id": "gemcutters-promise",
+        "type": "Gemcutter's Promise",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            }
+        ]
+    },
+    {
+        "name": "天堂执法官",
+        "stack": "1 / 6",
+        "id": "the-celestial-justicar",
+        "type": "The Celestial Justicar",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连星芒战铠"
+            }
+        ]
+    },
+    {
+        "name": "束缚之炼",
+        "stack": "1 / 11",
+        "id": "the-chains-that-bind",
+        "type": "The Chains that Bind",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连护具"
+            }
+        ]
+    },
+    {
+        "name": "艺者",
+        "stack": "1 / 11",
+        "id": "the-artist",
+        "type": "The Artist",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 4 增幅"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "发明家",
+        "stack": "1 / 6",
+        "id": "the-inventor",
+        "type": "The Inventor",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10 X 瓦尔宝珠"
+            }
+        ]
+    },
+    {
+        "name": "群聚之首",
+        "stack": "1 / 6",
+        "id": "the-pack-leader",
+        "type": "The Pack Leader",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "极地之眼"
+            }
+        ]
+    },
+    {
+        "name": "惊喜盒",
+        "stack": "1 / 4",
+        "id": "jack-in-the-box",
+        "type": "Jack in the Box",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "物品"
+            }
+        ]
+    },
+    {
+        "name": "联姻",
+        "stack": "1 / 7",
+        "id": "the-union",
+        "type": "The Union",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10 X 珠宝匠的棱镜"
+            }
+        ]
+    },
+    {
+        "name": "女王",
+        "stack": "1 / 16",
+        "id": "the-queen",
+        "type": "The Queen",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的捷思"
+            }
+        ]
+    },
+    {
+        "name": "谦逊",
+        "stack": "1 / 9",
+        "id": "humility",
+        "type": "Humility",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "无尽之衣"
+            }
+        ]
+    },
+    {
+        "name": "探险家",
+        "stack": "1 / 6",
+        "id": "the-explorer",
+        "type": "The Explorer",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "地图"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "骄纵皇子",
+        "stack": "1 / 4",
+        "id": "the-spoiled-prince",
+        "type": "The Spoiled Prince",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "独裁者预言法杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "背叛",
+        "stack": "1 / 9",
+        "id": "the-betrayal",
+        "type": "The Betrayal",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "马雷格罗的玫红手套"
+            }
+        ]
+    },
+    {
+        "name": "芙劳拉的赠礼",
+        "stack": "1 / 5",
+        "id": "the-floras-gift",
+        "type": "The Flora's Gift",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "五连长杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "66"
+            }
+        ]
+    },
+    {
+        "name": "海妖",
+        "stack": "1 / 7",
+        "id": "the-siren",
+        "type": "The Siren",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冰点低语"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "完人",
+        "stack": "1 / 6",
+        "id": "the-one-with-all",
+        "type": "The One With All",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "英灵宝环"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "屹立不败之人",
+        "stack": "1 / 10",
+        "id": "the-last-one-standing",
+        "type": "The Last One Standing",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的刑刃"
+            }
+        ]
+    },
+    {
+        "name": "德瑞竞之狂",
+        "stack": "1 / 9",
+        "id": "doedres-madness",
+        "type": "Doedre's Madness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "德瑞物品"
+            }
+        ]
+    },
+    {
+        "name": "黑暗来犯",
+        "stack": "1 / 8",
+        "id": "the-encroaching-darkness",
+        "type": "The Encroaching Darkness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "地图"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "怨忿",
+        "stack": "1 / 8",
+        "id": "the-wrath",
+        "type": "The Wrath",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10 X 混沌石"
+            }
+        ]
+    },
+    {
+        "name": "王者之刃",
+        "stack": "1 / 5",
+        "id": "the-kings-blade",
+        "type": "The King's Blade",
+        "explicitMod": [
+            {
+                "type": "size-31",
+                "value": "【嗜血的】永恒之剑物品等级: 66"
+            },
+            {
+                "type": "magicitem",
+                "value": "【嗜血的】永恒之剑"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "66"
+            }
+        ]
+    },
+    {
+        "name": "远征",
+        "stack": "1 / 7",
+        "id": "the-trial",
+        "type": "The Trial",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图阶级:"
+            },
+            {
+                "type": "normal",
+                "value": "15"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "绅士之风",
+        "stack": "1 / 4",
+        "id": "the-gentleman",
+        "type": "The Gentleman",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "剑"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "明镜",
+        "stack": "1 / 9",
+        "id": "house-of-mirrors",
+        "type": "House of Mirrors",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "卡兰德的魔镜"
+            }
+        ]
+    },
+    {
+        "name": "钱与权",
+        "stack": "1 / 11",
+        "id": "wealth-and-power",
+        "type": "Wealth and Power",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 4 启蒙"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "灾变",
+        "stack": "1 / 3",
+        "id": "the-catalyst",
+        "type": "The Catalyst",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "瓦尔宝珠"
+            }
+        ]
+    },
+    {
+        "name": "平壤",
+        "stack": "1 / 7",
+        "id": "the-vast",
+        "type": "The Vast",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "海妖魅曲"
+            }
+        ]
+    },
+    {
+        "name": "宝石皇后的赠礼",
+        "stack": "1 / 9",
+        "id": "gift-of-the-gemling-queen",
+        "type": "Gift of the Gemling Queen",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 20 辅助宝石"
+            }
+        ]
+    },
+    {
+        "name": "龙之心",
+        "stack": "1 / 11",
+        "id": "the-dragons-heart",
+        "type": "The Dragon's Heart",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 4 赋予"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "狡狐",
+        "stack": "1 / 6",
+        "id": "the-fox",
+        "type": "The Fox",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 20 技能宝石"
+            }
+        ]
+    },
+    {
+        "name": "傀儡",
+        "stack": "1 / 2",
+        "id": "the-doppelganger",
+        "type": "The Doppelganger",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "魅影射击"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            }
+        ]
+    },
+    {
+        "name": "求生专家",
+        "stack": "1 / 3",
+        "id": "the-survivalist",
+        "type": "The Survivalist",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "7x 点金石"
+            }
+        ]
+    },
+    {
+        "name": "死亡",
+        "stack": "1 / 4",
+        "id": "death",
+        "type": "Death",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "凋零魔爪"
+            }
+        ]
+    },
+    {
+        "name": "亡灵智慧",
+        "stack": "1 / 6",
+        "id": "grave-knowledge",
+        "type": "Grave Knowledge",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "召唤愤怒狂灵"
+            },
+            {
+                "type": "default",
+                "value": "品质"
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            }
+        ]
+    },
+    {
+        "name": "小丑",
+        "stack": "1 / 9",
+        "id": "the-jester",
+        "type": "The Jester",
+        "explicitMod": [
+            {
+                "type": "size-31",
+                "value": "【无情的】单手武器物品等级: 100"
+            },
+            {
+                "type": "magicitem",
+                "value": "【无情的】单手武器"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "佣兵",
+        "stack": "1 / 5",
+        "id": "the-mercenary",
+        "type": "The Mercenary",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "盾"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "移花接木",
+        "stack": "1 / 4",
+        "id": "the-inoculated",
+        "type": "The Inoculated",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "【六翼天使的】护甲"
+            }
+        ]
+    },
+    {
+        "name": "忠诚",
+        "stack": "1 / 5",
+        "id": "loyalty",
+        "type": "Loyalty",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3x 链结石"
+            }
+        ]
+    },
+    {
+        "name": "骄者必败",
+        "stack": "1 / 8",
+        "id": "pride-before-the-fall",
+        "type": "Pride Before the Fall",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冈姆的壮志"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "胆识",
+        "stack": "1 / 5",
+        "id": "audacity",
+        "type": "Audacity",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "多里亚尼之拳"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "暗影恩惠",
+        "stack": "1 / 9",
+        "id": "assassins-favour",
+        "type": "Assassin's Favour",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "匕首"
+            }
+        ]
+    },
+    {
+        "name": "猎者之愿",
+        "stack": "1 / 8",
+        "id": "hunters-resolve",
+        "type": "Hunter's Resolve",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "弓"
+            }
+        ]
+    },
+    {
+        "name": "海洋学者",
+        "stack": "1 / 7",
+        "id": "scholar-of-the-seas",
+        "type": "Scholar of the Seas",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "贼窝"
+            }
+        ]
+    },
+    {
+        "name": "雷针",
+        "stack": "1 / 9",
+        "id": "the-conduit",
+        "type": "The Conduit",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "多里亚尼之拳"
+            }
+        ]
+    },
+    {
+        "name": "塔峰",
+        "stack": "1 / 6",
+        "id": "the-tower",
+        "type": "The Tower",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "长杖"
+            }
+        ]
+    },
+    {
+        "name": "孪生",
+        "stack": "1 / 8",
+        "id": "the-twins",
+        "type": "The Twins",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "庆祝之双子战爪"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            }
+        ]
+    },
+    {
+        "name": "混乱代价",
+        "stack": "1 / 13",
+        "id": "anarchys-price",
+        "type": "Anarchy's Price",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "魔暴之痕"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "巫妖",
+        "stack": "1 / 12",
+        "id": "the-lich",
+        "type": "The Lich",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冥约"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "大奇术师",
+        "stack": "1 / 8",
+        "id": "the-thaumaturgist",
+        "type": "The Thaumaturgist",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "薛朗的启示之环"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "大艺术家",
+        "stack": "1 / 8",
+        "id": "the-aesthete",
+        "type": "The Aesthete",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "薛朗物品"
+            }
+        ]
+    },
+    {
+        "name": "智慧启蒙",
+        "stack": "1 / 6",
+        "id": "the-enlightened",
+        "type": "The Enlightened",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 3 启蒙"
+            }
+        ]
+    },
+    {
+        "name": "猎人的奖赏",
+        "stack": "1 / 3",
+        "id": "hunters-reward",
+        "type": "Hunter's Reward",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "元素之章"
+            }
+        ]
+    },
+    {
+        "name": "制箭者",
+        "stack": "1 / 5",
+        "id": "the-fletcher",
+        "type": "The Fletcher",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "穿心"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "勘查员",
+        "stack": "1 / 4",
+        "id": "the-surveyor",
+        "type": "The Surveyor",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图阶级:"
+            },
+            {
+                "type": "normal",
+                "value": "14"
+            }
+        ]
+    },
+    {
+        "name": "弓匠的梦想",
+        "stack": "1 / 6",
+        "id": "bowyers-dream",
+        "type": "Bowyer's Dream",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连先驱者之弓"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "91"
+            }
+        ]
+    },
+    {
+        "name": "外科医师",
+        "stack": "1 / 4",
+        "id": "the-surgeon",
+        "type": "The Surgeon",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "外科医生的 药剂"
+            }
+        ]
+    },
+    {
+        "name": "不稳定的力量",
+        "stack": "1 / 9",
+        "id": "volatile-power",
+        "type": "Volatile Power",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "瓦尔宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "最后希望",
+        "stack": "1 / 3",
+        "id": "last-hope",
+        "type": "Last Hope",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "凡人的希望"
+            }
+        ]
+    },
+    {
+        "name": "狂妄",
+        "stack": "1 / 5",
+        "id": "hubris",
+        "type": "Hubris",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "戒指"
+            }
+        ]
+    },
+    {
+        "name": "盲途",
+        "stack": "1 / 7",
+        "id": "blind-venture",
+        "type": "Blind Venture",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "戒指"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "无情军械",
+        "stack": "1 / 4",
+        "id": "merciless-armament",
+        "type": "Merciless Armament",
+        "explicitMod": [
+            {
+                "type": "size-31",
+                "value": "无情的 双手武器物品等级: 100"
+            },
+            {
+                "type": "magicitem",
+                "value": "无情的 双手武器"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "制图师",
+        "stack": "",
+        "id": "the-cartographer",
+        "type": "The Cartographer",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10 x 制图钉"
+            }
+        ]
+    },
+    {
+        "name": "大军阀",
+        "stack": "1 / 6",
+        "id": "the-warlord",
+        "type": "The Warlord",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连 花冠重锤"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            }
+        ]
+    },
+    {
+        "name": "魅魔",
+        "stack": "1 / 5",
+        "id": "the-demoness",
+        "type": "The Demoness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "死神之手"
+            }
+        ]
+    },
+    {
+        "name": "背叛者",
+        "stack": "1 / 4",
+        "id": "the-traitor",
+        "type": "The Traitor",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "法杖"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "奉献",
+        "stack": "1 / 8",
+        "id": "the-offering",
+        "type": "The Offering",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "薛朗的护身长袍"
+            }
+        ]
+    },
+    {
+        "name": "失落帝国",
+        "stack": "1 / 8",
+        "id": "lost-worlds",
+        "type": "Lost Worlds",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图阶级:"
+            },
+            {
+                "type": "normal",
+                "value": "15"
+            }
+        ]
+    },
+    {
+        "name": "暗黑之王",
+        "stack": "1 / 6",
+        "id": "the-lord-in-black",
+        "type": "The Lord in Black",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "巴曼斯之 戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            }
+        ]
+    },
+    {
+        "name": "母亲的礼物",
+        "stack": "1 / 6",
+        "id": "a-mothers-parting-gift",
+        "type": "A Mother's Parting Gift",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "丰富心灵"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "血肉之躯",
+        "stack": "1 / 4",
+        "id": "the-body",
+        "type": "The Body",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "护甲"
+            }
+        ]
+    },
+    {
+        "name": "忍辱",
+        "stack": "1 / 3",
+        "id": "turn-the-other-cheek",
+        "type": "Turn the Other Cheek",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "和平主义"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "希望微光",
+        "stack": "1 / 8",
+        "id": "glimmer-of-hope",
+        "type": "Glimmer of Hope",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "金光戒指"
+            }
+        ]
+    },
+    {
+        "name": "空灵",
+        "stack": "1 / 7",
+        "id": "the-ethereal",
+        "type": "The Ethereal",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连 瓦尔法衣"
+            }
+        ]
+    },
+    {
+        "name": "兴盛",
+        "stack": "1 / 10",
+        "id": "prosperity",
+        "type": "Prosperity",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "普兰德斯的 金光戒指"
+            }
+        ]
+    },
+    {
+        "name": "魔符",
+        "stack": "1 / 3",
+        "id": "the-sigil",
+        "type": "The Sigil",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "坚不可摧的 项链"
+            }
+        ]
+    },
+    {
+        "name": "极致不凡",
+        "stack": "1 / 6",
+        "id": "the-dapper-prodigy",
+        "type": "The Dapper Prodigy",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连护甲"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "疯狂恐喙鸟",
+        "stack": "1 / 4",
+        "id": "the-rabid-rhoa",
+        "type": "The Rabid Rhoa",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "恶意的 双子战爪"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            }
+        ]
+    },
+    {
+        "name": "灵魂",
+        "stack": "1 / 9",
+        "id": "the-soul",
+        "type": "The Soul",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "开膛斧"
+            }
+        ]
+    },
+    {
+        "name": "雄狮",
+        "stack": "1 / 5",
+        "id": "the-lion",
+        "type": "The Lion",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "狮眼 物品"
+            }
+        ]
+    },
+    {
+        "name": "巨龙",
+        "stack": "1 / 4",
+        "id": "the-dragon",
+        "type": "The Dragon",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "闪耀精华"
+            }
+        ]
+    },
+    {
+        "name": "鼠辈",
+        "stack": "1 / 8",
+        "id": "rats",
+        "type": "Rats",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "鼠巢"
+            }
+        ]
+    },
+    {
+        "name": "危机",
+        "stack": "1 / 3",
+        "id": "the-risk",
+        "type": "The Risk",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "赌神芬多"
+            }
+        ]
+    },
+    {
+        "name": "宁静",
+        "stack": "1 / 7",
+        "id": "tranquillity",
+        "type": "Tranquillity",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "魔暴之痕"
+            }
+        ]
+    },
+    {
+        "name": "她的面具",
+        "stack": "1 / 4",
+        "id": "her-mask",
+        "type": "Her Mask",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "奉献碎片"
+            }
+        ]
+    },
+    {
+        "name": "赏金猎手",
+        "stack": "1 / 7",
+        "id": "treasure-hunter",
+        "type": "Treasure Hunter",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的秘宝库"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "大地吞食者",
+        "stack": "1 / 5",
+        "id": "earth-drinker",
+        "type": "Earth Drinker",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "坚岩药剂"
+            }
+        ]
+    },
+    {
+        "name": "狼的影子",
+        "stack": "1 / 3",
+        "id": "the-wolfs-shadow",
+        "type": "The Wolf's Shadow",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "海昂的狂怒"
+            }
+        ]
+    },
+    {
+        "name": "竞技场冠军",
+        "stack": "1 / 10",
+        "id": "the-arena-champion",
+        "type": "The Arena Champion",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "12"
+            }
+        ]
+    },
+    {
+        "name": "生命之树",
+        "stack": "1 / 11",
+        "id": "the-sephirot",
+        "type": "The Sephirot",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 神圣石"
+            }
+        ]
+    },
+    {
+        "name": "梦想家",
+        "stack": "1 / 6",
+        "id": "the-visionary",
+        "type": "The Visionary",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "狮眼的视线"
+            }
+        ]
+    },
+    {
+        "name": "怒雷之空",
+        "stack": "1 / 5",
+        "id": "thunderous-skies",
+        "type": "Thunderous Skies",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "暴雨之弦"
+            }
+        ]
+    },
+    {
+        "name": "消逝之怒",
+        "stack": "1 / 8",
+        "id": "dying-anguish",
+        "type": "Dying Anguish",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 19 宝石"
+            },
+            {
+                "type": "default",
+                "value": "替换品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+19%"
+            }
+        ]
+    },
+    {
+        "name": "永恒不朽",
+        "stack": "1 / 10",
+        "id": "the-immortal",
+        "type": "The Immortal",
+        "explicitMod": [
+            {
+                "type": "divination",
+                "value": "明镜"
+            }
+        ]
+    },
+    {
+        "name": "王座",
+        "stack": "1 / 2",
+        "id": "the-throne",
+        "type": "The Throne",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冈姆的稳重之靴"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "无尽之域",
+        "stack": "1 / 4",
+        "id": "boundless-realms",
+        "type": "Boundless Realms",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "地图"
+            }
+        ]
+    },
+    {
+        "name": "蹂躏之王",
+        "stack": "1 / 8",
+        "id": "the-devastator",
+        "type": "The Devastator",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的刑刃"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "殒落的命运",
+        "stack": "1 / 5",
+        "id": "destined-to-crumble",
+        "type": "Destined to Crumble",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "身体护具"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "命运之晶",
+        "stack": "1 / 4",
+        "id": "shard-of-fate",
+        "type": "Shard of Fate",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "生机的 珠宝"
+            }
+        ]
+    },
+    {
+        "name": "阴阳眼",
+        "stack": "1 / 2",
+        "id": "heterochromia",
+        "type": "Heterochromia",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "双玉戒指"
+            }
+        ]
+    },
+    {
+        "name": "诱惑之雨",
+        "stack": "1 / 9",
+        "id": "rain-tempter",
+        "type": "Rain Tempter",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "6"
+            }
+        ]
+    },
+    {
+        "name": "虚空",
+        "stack": "",
+        "id": "the-void",
+        "type": "The Void",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "name": " 暴虐之灵",
+        "stack": "1 / 9",
+        "id": "the-tyrant",
+        "type": "The Tyrant",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "无情的武器"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "命运之网",
+        "stack": "1 / 8",
+        "id": "the-web",
+        "type": "The Web",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "工艺打造武器"
+            }
+        ]
+    },
+    {
+        "name": "收割者",
+        "stack": "1 / 11",
+        "id": "the-harvester",
+        "type": "The Harvester",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "收割者"
+            }
+        ]
+    },
+    {
+        "name": "月影女祭司",
+        "stack": "1 / 5",
+        "id": "the-lunaris-priestess",
+        "type": "The Lunaris Priestess",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "破碎传承者"
+            }
+        ]
+    },
+    {
+        "name": "纯净帝王",
+        "stack": "1 / 7",
+        "id": "emperor-of-purity",
+        "type": "Emperor of Purity",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连的圣语锁甲"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "60"
+            }
+        ]
+    },
+    {
+        "name": "诅咒之王",
+        "stack": "1 / 8",
+        "id": "the-cursed-king",
+        "type": "The Cursed King",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瑞佛诅咒"
+            }
+        ]
+    },
+    {
+        "name": "风暴使者",
+        "stack": "1 / 4",
+        "id": "the-stormcaller",
+        "type": "The Stormcaller",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "雷霆圣杖"
+            }
+        ]
+    },
+    {
+        "name": "莉莎之息",
+        "stack": "1 / 6",
+        "id": "lysahs-respite",
+        "type": "Lysah's Respite",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "玛瑙护身符"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "制图者的青睐",
+        "stack": "1 / 3",
+        "id": "cartographers-delight",
+        "type": "Cartographer's Delight",
+        "explicitMod": [
+            {
+                "type": "normal",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图阶级:"
+            },
+            {
+                "type": "normal",
+                "value": "5"
+            }
+        ]
+    },
+    {
+        "name": "命运垂青",
+        "stack": "1 / 9",
+        "id": "lucky-deck",
+        "type": "Lucky Deck",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 未知的命运卡"
+            }
+        ]
+    },
+    {
+        "name": "光与真实",
+        "stack": "1 / 2",
+        "id": "light-and-truth",
+        "type": "Light and Truth",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "水晶短杖"
+            }
+        ]
+    },
+    {
+        "name": "瓦尔的眷顾",
+        "stack": "",
+        "id": "luck-of-the-vaal",
+        "type": "Luck of the Vaal",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瓦尔护手"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "耐久者",
+        "stack": "1 / 4",
+        "id": "the-endurance",
+        "type": "The Endurance",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "生机的 赤红珠宝"
+            }
+        ]
+    },
+    {
+        "name": "忏悔者",
+        "stack": "1 / 5",
+        "id": "the-penitent",
+        "type": "The Penitent",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "潜能之戒"
+            }
+        ]
+    },
+    {
+        "name": "群狼之王",
+        "stack": "1 / 5",
+        "id": "the-wolf",
+        "type": "The Wolf",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瑞佛物品"
+            }
+        ]
+    },
+    {
+        "name": "达拉夫人的宝石",
+        "stack": "1 / 7",
+        "id": "diallas-subjugation",
+        "type": "Dialla's Subjugation",
+        "explicitMod": [
+            {
+                "type": "size-31",
+                "value": "辅助宝石品质： +23%已腐化"
+            },
+            {
+                "type": "gemitem",
+                "value": "辅助宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "越界的呼唤",
+        "stack": "1 / 6",
+        "id": "the-calling",
+        "type": "The Calling",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "超越词缀物品"
+            }
+        ]
+    },
+    {
+        "name": "女之武神",
+        "stack": "1 / 8",
+        "id": "the-valkyrie",
+        "type": "The Valkyrie",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "复仇词缀物品"
+            }
+        ]
+    },
+    {
+        "name": "无迹之海",
+        "stack": "1 / 7",
+        "id": "the-formless-sea",
+        "type": "The Formless Sea",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "黑鲨"
+            }
+        ]
+    },
+    {
+        "name": "力之誓言",
+        "stack": "1 / 6",
+        "id": "the-oath",
+        "type": "The Oath",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "冥使之体"
+            }
+        ]
+    },
+    {
+        "name": "拾荒者",
+        "stack": "1 / 8",
+        "id": "the-scavenger",
+        "type": "The Scavenger",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "致命之体"
+            }
+        ]
+    },
+    {
+        "name": "狼之信物",
+        "stack": "1 / 16",
+        "id": "mawr-blaidd",
+        "type": "Mawr Blaidd",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "巨狼之眼"
+            }
+        ]
+    },
+    {
+        "name": "射成筛子",
+        "stack": "1 / 6",
+        "id": "the-porcupine",
+        "type": "The Porcupine",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连短弓"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "name": "风暴来袭",
+        "stack": "1 / 8",
+        "id": "the-coming-storm",
+        "type": "The Coming Storm",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "雷语"
+            }
+        ]
+    },
+    {
+        "name": "博学者",
+        "stack": "1 / 3",
+        "id": "the-polymath",
+        "type": "The Polymath",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "均衡之符"
+            }
+        ]
+    },
+    {
+        "name": "金刚狼",
+        "stack": "1 / 4",
+        "id": "the-wolverine",
+        "type": "The Wolverine",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "爪"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "露指手套",
+        "stack": "1 / 5",
+        "id": "mitts",
+        "type": "Mitts",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "手套"
+            }
+        ]
+    },
+    {
+        "name": "死灵遗物",
+        "stack": "1 / 6",
+        "id": "the-wretched",
+        "type": "The Wretched",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "腰带"
+            }
+        ]
+    },
+    {
+        "name": "狼王之弦",
+        "stack": "1 / 8",
+        "id": "the-wolven-kings-bite",
+        "type": "The Wolven King's Bite",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瑞佛之羽"
+            }
+        ]
+    },
+    {
+        "name": "冷淡",
+        "stack": "1 / 3",
+        "id": "the-standoff",
+        "type": "The Standoff",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "素布腰带"
+            }
+        ]
+    },
+    {
+        "name": "遗弃之物",
+        "stack": "1 / 7",
+        "id": "the-forsaken",
+        "type": "The Forsaken",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "不朽系命"
+            }
+        ]
+    },
+    {
+        "name": "炫耀之力",
+        "stack": "1 / 4",
+        "id": "the-garish-power",
+        "type": "The Garish Power",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "珠宝"
+            }
+        ]
+    },
+    {
+        "name": "稍纵即逝",
+        "stack": "1 / 16",
+        "id": "lingering-remnants",
+        "type": "Lingering Remnants",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "瓦尔密殿"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "闪光与火焰",
+        "stack": "1 / 2",
+        "id": "the-spark-and-the-flame",
+        "type": "The Spark and the Flame",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "贝雷克的火与雷之乐"
+            }
+        ]
+    },
+    {
+        "name": "圣人之礼",
+        "stack": "1 / 10",
+        "id": "the-saints-treasure",
+        "type": "The Saint's Treasure",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "2x 崇高石"
+            }
+        ]
+    },
+    {
+        "name": "远古召唤",
+        "stack": "1 / 5",
+        "id": "call-to-the-first-ones",
+        "type": "Call to the First Ones",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "1阶魔符"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "金属盒子",
+        "stack": "1 / 9",
+        "id": "the-valley-of-steel-boxes",
+        "type": "The Valley of Steel Boxes",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    },
+    {
+        "name": "正气",
+        "stack": "1 / 9",
+        "id": "might-is-right",
+        "type": "Might is Right",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂颅"
+            }
+        ]
+    },
+    {
+        "name": "净白",
+        "stack": "1 / 5",
+        "id": "the-opulent",
+        "type": "The Opulent",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "雷劈",
+        "stack": "1 / 3",
+        "id": "struck-by-lightning",
+        "type": "Struck by Lightning",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "电切宝石"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "76"
+            }
+        ]
+    },
+    {
+        "name": "阿兹里的武器库",
+        "stack": "1 / 4",
+        "id": "atziris-arsenal",
+        "type": "Atziri's Arsenal",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "武器"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "残酷之环",
+        "stack": "1 / 7",
+        "id": "the-ruthless-ceinture",
+        "type": "The Ruthless Ceinture",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "梅吉诺德的力量泉源"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "无迹可寻",
+        "stack": "1 / 9",
+        "id": "no-traces",
+        "type": "No Traces",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "30x 重铸石"
+            }
+        ]
+    },
+    {
+        "name": "家的捷径",
+        "stack": "1 / 5",
+        "id": "the-realm",
+        "type": "The Realm",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "时空之门"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+1-20%"
+            }
+        ]
+    },
+    {
+        "name": "龙之眼",
+        "stack": "1 / 10",
+        "id": "the-eye-of-the-dragon",
+        "type": "The Eye of the Dragon",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "珠宝"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "灼热之火",
+        "stack": "1 / 6",
+        "id": "the-blazing-fire",
+        "type": "The Blazing Fire",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "乱矢之弦"
+            }
+        ]
+    },
+    {
+        "name": "听天由命",
+        "stack": "1 / 4",
+        "id": "left-to-fate",
+        "type": "Left to Fate",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图阶级:"
+            },
+            {
+                "type": "normal",
+                "value": "16"
+            },
+            {
+                "type": "corrupted",
+                "value": "未鉴定 已腐化"
+            }
+        ]
+    },
+    {
+        "name": "重生",
+        "stack": "1 / 27",
+        "id": "rebirth",
+        "type": "Rebirth",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "查兰之剑"
+            }
+        ]
+    },
+    {
+        "name": "永不满足",
+        "stack": "1 / 3",
+        "id": "the-insatiable",
+        "type": "The Insatiable",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "收割者"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "黑暗缭绕",
+        "stack": "1 / 7",
+        "id": "the-obscured",
+        "type": "The Obscured",
+        "explicitMod": [
+            {
+                "type": "normal",
+                "value": "裂隙石"
+            }
+        ]
+    },
+    {
+        "name": "锈铁诗人",
+        "stack": "1 / 9",
+        "id": "the-rusted-bard",
+        "type": "The Rusted Bard",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "4x 污秽神秘石"
+            }
+        ]
+    },
+    {
+        "name": "禁忌之力",
+        "stack": "1 / 4",
+        "id": "forbidden-power",
+        "type": "Forbidden Power",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "苍白烈火"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "裂隙",
+        "stack": "1 / 4",
+        "id": "the-breach",
+        "type": "The Breach",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂隙物品"
+            }
+        ]
+    },
+    {
+        "name": "追梦者",
+        "stack": "1 / 6",
+        "id": "the-dreamer",
+        "type": "The Dreamer",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂隙物品"
+            }
+        ]
+    },
+    {
+        "name": "噬界者",
+        "stack": "1 / 8",
+        "id": "the-world-eater",
+        "type": "The World Eater",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "塑星者"
+            }
+        ]
+    },
+    {
+        "name": "狡徒",
+        "stack": "1 / 4",
+        "id": "the-deceiver",
+        "type": "The Deceiver",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "狡徒束腰"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "神佑",
+        "stack": "1 / 3",
+        "id": "blessing-of-god",
+        "type": "Blessing of God",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "艾尔雷恩的饰品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级:"
+            },
+            {
+                "type": "normal",
+                "value": "85"
+            }
+        ]
+    },
+    {
+        "name": "谜团",
+        "stack": "1 / 5",
+        "id": "the-puzzle",
+        "type": "The Puzzle",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5 x 裂隙碎片"
+            }
+        ]
+    },
+    {
+        "name": "巫婆",
+        "stack": "1 / 8",
+        "id": "the-witch",
+        "type": "The Witch",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "奇亚拉的决心"
+            }
+        ]
+    },
+    {
+        "name": "不朽决心",
+        "stack": "1 / 6",
+        "id": "immortal-resolve",
+        "type": "Immortal Resolve",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连身体护甲"
+            },
+            {
+                "type": "default",
+                "value": "影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "珠宝匠的福祉",
+        "stack": "1 / 5",
+        "id": "the-jewellers-boon",
+        "type": "The Jeweller's Boon",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "五连身体护甲"
+            },
+            {
+                "type": "default",
+                "value": "影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "深深黑梦",
+        "stack": "1 / 6",
+        "id": "the-darkest-dream",
+        "type": "The Darkest Dream",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "离异梦寐"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "主宰",
+        "stack": "1 / 4",
+        "id": "the-master",
+        "type": "The Master",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "比斯克的项圈"
+            }
+        ]
+    },
+    {
+        "name": "无尽深渊",
+        "stack": "1 / 8",
+        "id": "the-fathomless-depths",
+        "type": "The Fathomless Depths",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "光明偷猎者"
+            }
+        ]
+    },
+    {
+        "name": "无畏者",
+        "stack": "1 / 5",
+        "id": "the-undaunted",
+        "type": "The Undaunted",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "复仇词缀物品"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "仰慕者",
+        "stack": "1 / 9",
+        "id": "the-admirer",
+        "type": "The Admirer",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里物品"
+            }
+        ]
+    },
+    {
+        "name": "剑圣的致敬",
+        "stack": "1 / 7",
+        "id": "the-sword-kings-salute",
+        "type": "The Sword King's Salute",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "德瑞索的战礼"
+            }
+        ]
+    },
+    {
+        "name": "鲜血大军",
+        "stack": "1 / 6",
+        "id": "the-army-of-blood",
+        "type": "The Army of Blood",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "血脉相连"
+            }
+        ]
+    },
+    {
+        "name": "天堂之石",
+        "stack": "1 / 10",
+        "id": "the-celestial-stone",
+        "type": "The Celestial Stone",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "蛋白石戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "塑界之器"
+            }
+        ]
+    },
+    {
+        "name": "至臻完美",
+        "stack": "1 / 5",
+        "id": "perfection",
+        "type": "Perfection",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "饰品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "塑界之器"
+            }
+        ]
+    },
+    {
+        "name": "梦境",
+        "stack": "1 / 8",
+        "id": "the-dreamland",
+        "type": "The Dreamland",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "沉沦之间"
+            }
+        ]
+    },
+    {
+        "name": "魂之和谐",
+        "stack": "1 / 9",
+        "id": "harmony-of-souls",
+        "type": "Harmony of Souls",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "9x 尖啸精华"
+            }
+        ]
+    },
+    {
+        "name": "武士之眼",
+        "stack": "1 / 3",
+        "id": "the-samurais-eye",
+        "type": "The Samurai's Eye",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "守望之眼"
+            }
+        ]
+    },
+    {
+        "name": "壮心不已",
+        "stack": "1 / 4",
+        "id": "the-hale-heart",
+        "type": "The Hale Heart",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "裂界之器"
+            }
+        ]
+    },
+    {
+        "name": "庄园主",
+        "stack": "1 / 5",
+        "id": "the-mayor",
+        "type": "The Mayor",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "普兰德斯庄园"
+            },
+            {
+                "type": "default",
+                "value": "虚空石数量："
+            },
+            {
+                "type": "normal",
+                "value": "4"
+            }
+        ]
+    },
+    {
+        "name": "无可争议者",
+        "stack": "1 / 8",
+        "id": "the-undisputed",
+        "type": "The Undisputed",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "无情的瓦尔巨斧"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "裂界之器"
+            }
+        ]
+    },
+    {
+        "name": "元素祭祀",
+        "stack": "1 / 5",
+        "id": "the-rite-of-elements",
+        "type": "The Rite of Elements",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 21 魔像宝石"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "三魔音",
+        "stack": "1 / 3",
+        "id": "three-voices",
+        "type": "Three Voices",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3x 精华"
+            }
+        ]
+    },
+    {
+        "name": "教授",
+        "stack": "1 / 4",
+        "id": "the-professor",
+        "type": "The Professor",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "幽秘博物馆"
+            }
+        ]
+    },
+    {
+        "name": "狂兽",
+        "stack": "1 / 6",
+        "id": "the-beast",
+        "type": "The Beast",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "兽腹"
+            }
+        ]
+    },
+    {
+        "name": "无辜者",
+        "stack": "1 / 10",
+        "id": "the-innocent",
+        "type": "The Innocent",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "40x 后悔石"
+            }
+        ]
+    },
+    {
+        "name": "枯萎玫瑰",
+        "stack": "1 / 7",
+        "id": "the-wilted-rose",
+        "type": "The Wilted Rose",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21 级光环宝石"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "无尽黑暗",
+        "stack": "1 / 9",
+        "id": "the-endless-darkness",
+        "type": "The Endless Darkness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂空者"
+            }
+        ]
+    },
+    {
+        "name": "来生之美",
+        "stack": "1 / 5",
+        "id": "beauty-through-death",
+        "type": "Beauty Through Death",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的反击"
+            }
+        ]
+    },
+    {
+        "name": "保护的代价",
+        "stack": "1 / 5",
+        "id": "the-price-of-protection",
+        "type": "The Price of Protection",
+        "explicitMod": [
+            {
+                "type": "size-28",
+                "value": "裂界守卫占据地图地图位阶： 14到16词缀：8已腐化"
+            },
+            {
+                "type": "rareitem",
+                "value": "裂界守卫占据地图"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "14到16"
+            },
+            {
+                "type": "default",
+                "value": "词缀："
+            },
+            {
+                "type": "normal",
+                "value": "8"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "先祖赐福",
+        "stack": "1 / 6",
+        "id": "boon-of-the-first-ones",
+        "type": "Boon of the First Ones",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "猎魔笔记物品"
+            }
+        ]
+    },
+    {
+        "name": "暮光之月",
+        "stack": "1 / 6",
+        "id": "the-twilight-moon",
+        "type": "The Twilight Moon",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "暮光古庙"
+            }
+        ]
+    },
+    {
+        "name": "不协之音",
+        "stack": "1 / 8",
+        "id": "the-cacophony",
+        "type": "The Cacophony",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3x 破空精华"
+            }
+        ]
+    },
+    {
+        "name": "牺牲",
+        "stack": "1 / 4",
+        "id": "the-sacrifice",
+        "type": "The Sacrifice",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连祭礼束衣"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "墨水点滴",
+        "stack": "1 / 9",
+        "id": "a-dab-of-ink",
+        "type": "A Dab of Ink",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "诗人的笔"
+            }
+        ]
+    },
+    {
+        "name": "照料者",
+        "stack": "1 / 8",
+        "id": "the-nurse",
+        "type": "The Nurse",
+        "explicitMod": [
+            {
+                "type": "divination",
+                "value": "疯医"
+            }
+        ]
+    },
+    {
+        "name": "工匠大师",
+        "stack": "1 / 5",
+        "id": "the-master-artisan",
+        "type": "The Master Artisan",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "20x 品质通货"
+            }
+        ]
+    },
+    {
+        "name": "生命窃贼",
+        "stack": "1 / 6",
+        "id": "the-life-thief",
+        "type": "The Life Thief",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "泽佛伊之心"
+            }
+        ]
+    },
+    {
+        "name": "寻觅者",
+        "stack": "1 / 9",
+        "id": "the-seeker",
+        "type": "The Seeker",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3x 剥离石"
+            }
+        ]
+    },
+    {
+        "name": "信使",
+        "stack": "1 / 4",
+        "id": "the-messenger",
+        "type": "The Messenger",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "先驱者碎片"
+            }
+        ]
+    },
+    {
+        "name": "狂王",
+        "stack": "1 / 7",
+        "id": "the-mad-king",
+        "type": "The Mad King",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "致命贪婪之相"
+            }
+        ]
+    },
+    {
+        "name": "司法的恩赐",
+        "stack": "1 / 6",
+        "id": "boon-of-justice",
+        "type": "Boon of Justice",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "女神祭品"
+            }
+        ]
+    },
+    {
+        "name": "旅程",
+        "stack": "1 / 3",
+        "id": "the-journey",
+        "type": "The Journey",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "先驱石"
+            }
+        ]
+    },
+    {
+        "name": "瓦尔的傲慢",
+        "stack": "1 / 8",
+        "id": "arrogance-of-the-vaal",
+        "type": "Arrogance of the Vaal",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "物品"
+            },
+            {
+                "type": "corrupted",
+                "value": "双基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "降临",
+        "stack": "1 / 5",
+        "id": "the-landing",
+        "type": "The Landing",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "降临之地"
+            },
+            {
+                "type": "default",
+                "value": "地图等阶："
+            },
+            {
+                "type": "normal",
+                "value": "15"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "山脉",
+        "stack": "1 / 6",
+        "id": "the-mountain",
+        "type": "The Mountain",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "强力之珠宝"
+            }
+        ]
+    },
+    {
+        "name": "七年厄运",
+        "stack": "1 / 13",
+        "id": "seven-years-bad-luck",
+        "type": "Seven Years Bad Luck",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "镜之残片"
+            }
+        ]
+    },
+    {
+        "name": "黄金纪元",
+        "stack": "1 / 7",
+        "id": "the-golden-era",
+        "type": "The Golden Era",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "迸出的月蚀长杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "黑白世界",
+        "stack": "1 / 3",
+        "id": "monochrome",
+        "type": "Monochrome",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "2X 尊崇六分仪"
+            }
+        ]
+    },
+    {
+        "name": "黑暗的引诱",
+        "stack": "1 / 5",
+        "id": "dark-temptation",
+        "type": "Dark Temptation",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "抹灭"
+            }
+        ]
+    },
+    {
+        "name": "黑暗中独行",
+        "stack": "1 / 5",
+        "id": "alone-in-the-darkness",
+        "type": "Alone in the Darkness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "地心探索物品"
+            }
+        ]
+    },
+    {
+        "name": "萨博辛的誓言",
+        "stack": "1 / 3",
+        "id": "sambodhis-vow",
+        "type": "Sambodhi's Vow",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "凡人碎片"
+            }
+        ]
+    },
+    {
+        "name": "欢庆领主",
+        "stack": "1 / 4",
+        "id": "the-lord-of-celebration",
+        "type": "The Lord of Celebration",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "庆祝节杖"
+            },
+            {
+                "type": "default",
+                "value": "塑界者物品"
+            }
+        ]
+    },
+    {
+        "name": "虚荣",
+        "stack": "1 / 9",
+        "id": "vanity",
+        "type": "Vanity",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "无尽之衣"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "帝国的遗产",
+        "stack": "1 / 22",
+        "id": "imperial-legacy",
+        "type": "Imperial Legacy",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连帝国弓"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "燃烧之血",
+        "stack": "1 / 6",
+        "id": "burning-blood",
+        "type": "Burning Blood",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "索伏之血"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "起源",
+        "stack": "1 / 5",
+        "id": "the-primordial",
+        "type": "The Primordial",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "珠宝"
+            },
+            {
+                "type": "magicitem",
+                "value": "远古"
+            }
+        ]
+    },
+    {
+        "name": "爱的回音",
+        "stack": "1 / 3",
+        "id": "echoes-of-love",
+        "type": "Echoes of Love",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "费德利塔斯的尖刺"
+            },
+            {
+                "type": "corrupted",
+                "value": "双基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "求知若渴",
+        "stack": "1 / 5",
+        "id": "thirst-for-knowledge",
+        "type": "Thirst for Knowledge",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "暴食"
+            }
+        ]
+    },
+    {
+        "name": "诱人的奖赏",
+        "stack": "1 / 7",
+        "id": "alluring-bounty",
+        "type": "Alluring Bounty",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 崇高石"
+            }
+        ]
+    },
+    {
+        "name": "愚人",
+        "stack": "1 / 4",
+        "id": "the-fool",
+        "type": "The Fool",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "20x 机会石"
+            }
+        ]
+    },
+    {
+        "name": "先祖的代价",
+        "stack": "1 / 7",
+        "id": "pride-of-the-first-ones",
+        "type": "Pride of the First Ones",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "大地之护"
+            }
+        ]
+    },
+    {
+        "name": "深渊之子",
+        "stack": "1 / 5",
+        "id": "the-deep-ones",
+        "type": "The Deep Ones",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "局势逆转者"
+            }
+        ]
+    },
+    {
+        "name": "大法师的右手",
+        "stack": "1 / 7",
+        "id": "the-archmages-right-hand",
+        "type": "The Archmage's Right Hand",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "雕纹箴言法杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "黑暗之梦",
+        "stack": "1 / 4",
+        "id": "dark-dreams",
+        "type": "Dark Dreams",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "唤骨头盔"
+            },
+            {
+                "type": "default",
+                "value": "裂界者物品"
+            }
+        ]
+    },
+    {
+        "name": "埋葬的宝藏",
+        "stack": "1 / 3",
+        "id": "buried-treasure",
+        "type": "Buried Treasure",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "亚硫酸圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "半神的赌局",
+        "stack": "1 / 7",
+        "id": "demigods-wager",
+        "type": "Demigod's Wager",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "剥离石"
+            }
+        ]
+    },
+    {
+        "name": "老人",
+        "stack": "1 / 12",
+        "id": "the-old-man",
+        "type": "The Old Man",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "鱼竿"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "诺克之冠",
+        "stack": "1 / 4",
+        "id": "nooks-crown",
+        "type": "Nook's Crown",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "唤骨头盔"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "裂界者物品"
+            }
+        ]
+    },
+    {
+        "name": "支线任务",
+        "stack": "1 / 5",
+        "id": "the-side-quest",
+        "type": "The Side Quest",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "20x 侦察报告"
+            }
+        ]
+    },
+    {
+        "name": "忠诚的代价",
+        "stack": "1 / 4",
+        "id": "the-price-of-loyalty",
+        "type": "The Price of Loyalty",
+        "explicitMod": [
+            {
+                "type": "span class=",
+                "value": "忠诚的皮囊"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "25"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "英勇打击",
+        "stack": "",
+        "id": "the-heroic-shot",
+        "type": "The Heroic Shot",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "17x 幻色石"
+            }
+        ]
+    },
+    {
+        "name": "铭记",
+        "stack": "1 / 8",
+        "id": "remembrance",
+        "type": "Remembrance",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "先驱的纹章"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "永不知足",
+        "stack": "1 / 7",
+        "id": "more-is-never-enough",
+        "type": "More is Never Enough",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "镀金圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "恶毒的权力",
+        "stack": "1 / 5",
+        "id": "vile-power",
+        "type": "Vile Power",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "灭世"
+            }
+        ]
+    },
+    {
+        "name": "交易",
+        "stack": "1 / 5",
+        "id": "the-bargain",
+        "type": "The Bargain",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    },
+    {
+        "name": "阿祖兰的奖赏",
+        "stack": "1 / 9",
+        "id": "azyrans-reward",
+        "type": "Azyran's Reward",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "三相珠宝"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "魔侍",
+        "stack": "1 / 6",
+        "id": "the-skeleton",
+        "type": "The Skeleton",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "1 级召唤魔侍"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "恐怖之眼",
+        "stack": "1 / 8",
+        "id": "the-eye-of-terror",
+        "type": "The Eye of Terror",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "夏乌拉的无暇裂隙石"
+            }
+        ]
+    },
+    {
+        "name": "恶魔",
+        "stack": "1 / 10",
+        "id": "the-demon",
+        "type": "The Demon",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "猎首"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "阿凯的预言",
+        "stack": "1 / 3",
+        "id": "akils-prophecy",
+        "type": "Akil's Prophecy",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "权贵圆盾"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "咒诅之灵",
+        "stack": "1 / 6",
+        "id": "the-damned",
+        "type": "The Damned",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "裂魂者"
+            }
+        ]
+    },
+    {
+        "name": "元素虚空",
+        "stack": "1 / 3",
+        "id": "void-of-the-elements",
+        "type": "Void of the Elements",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "强盛的蛋白石戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "裂界者物品"
+            }
+        ]
+    },
+    {
+        "name": "买卖",
+        "stack": "1 / 5",
+        "id": "the-deal",
+        "type": "The Deal",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "制图者圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "狼王的遗产",
+        "stack": "1 / 4",
+        "id": "the-wolfs-legacy",
+        "type": "The Wolf's Legacy",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿兹里的秘宝库"
+            }
+        ]
+    },
+    {
+        "name": "前程的诱惑",
+        "stack": "1 / 8",
+        "id": "baited-expectations",
+        "type": "Baited Expectations",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "渔具"
+            }
+        ]
+    },
+    {
+        "name": "无罪之援",
+        "stack": "1 / 6",
+        "id": "succor-of-the-sinless",
+        "type": "Succor of the Sinless",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瓶中信仰"
+            }
+        ]
+    },
+    {
+        "name": "地下森林",
+        "stack": "1 / 4",
+        "id": "underground-forest",
+        "type": "Underground Forest",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 觉醒六分仪"
+            }
+        ]
+    },
+    {
+        "name": "逃亡",
+        "stack": "1 / 5",
+        "id": "the-escape",
+        "type": "The Escape",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "神行靴"
+            }
+        ]
+    },
+    {
+        "name": "致命谋划",
+        "stack": "1 / 7",
+        "id": "deathly-designs",
+        "type": "Deathly Designs",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21 级陷阱宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "天选",
+        "stack": "1 / 5",
+        "id": "the-chosen",
+        "type": "The Chosen",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "君主之肤"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "卡梅莉亚的回报",
+        "stack": "1 / 2",
+        "id": "camerias-cut",
+        "type": "Cameria's Cut",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "神圣的正义",
+        "stack": "",
+        "id": "divine-justice",
+        "type": "Divine Justice",
+        "explicitMod": [
+            {
+                "type": "span class=",
+                "value": "头盔"
+            },
+            {
+                "type": "enchanted",
+                "value": "终极帝王迷宫附魔"
+            }
+        ]
+    },
+    {
+        "name": "鱼贩",
+        "stack": "1 / 4",
+        "id": "the-fishmonger",
+        "type": "The Fishmonger",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "白化的羽毛"
+            }
+        ]
+    },
+    {
+        "name": "骸骨",
+        "stack": "1 / 6",
+        "id": "the-bones",
+        "type": "The Bones",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21 瓦尔召唤魔侍"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "友谊",
+        "stack": "1 / 3",
+        "id": "friendship",
+        "type": "Friendship",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    },
+    {
+        "name": "渴求",
+        "stack": "1 / 4",
+        "id": "the-craving",
+        "type": "The Craving",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "无尽渴望"
+            }
+        ]
+    },
+    {
+        "name": "以血镌刻",
+        "stack": "1 / 9",
+        "id": "etched-in-blood",
+        "type": "Etched in Blood",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瑞弗之羽"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "挥霍无度",
+        "stack": "1 / 5",
+        "id": "squandered-prosperity",
+        "type": "Squandered Prosperity",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "普兰德斯庄园"
+            },
+            {
+                "type": "default",
+                "value": "虚空石数量："
+            },
+            {
+                "type": "normal",
+                "value": "4"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "兵法家",
+        "stack": "1 / 6",
+        "id": "the-strategist",
+        "type": "The Strategist",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "求知的热情"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "出老千",
+        "stack": "1 / 3",
+        "id": "the-cheater",
+        "type": "The Cheater",
+        "explicitMod": [
+            {
+                "type": "size-30",
+                "value": "6 级强化辅助宝石"
+            },
+            {
+                "type": "gemitem",
+                "value": "6 级强化辅助宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "修补匠之桌",
+        "stack": "1 / 5",
+        "id": "the-tinkerers-table",
+        "type": "The Tinkerer's Table",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5x 化石"
+            }
+        ]
+    },
+    {
+        "name": "轻松漫步",
+        "stack": "1 / 2",
+        "id": "the-easy-stroll",
+        "type": "The Easy Stroll",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "地图"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "15"
+            },
+            {
+                "type": "default",
+                "value": "词缀："
+            },
+            {
+                "type": "normal",
+                "value": "8"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "月影的子嗣",
+        "stack": "1 / 2",
+        "id": "the-progeny-of-lunaris",
+        "type": "The Progeny of Lunaris",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "逝日"
+            }
+        ]
+    },
+    {
+        "name": "裂界之殇",
+        "stack": "1 / 4",
+        "id": "the-eldritch-decay",
+        "type": "The Eldritch Decay",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "至高裂界者碎片"
+            }
+        ]
+    },
+    {
+        "name": "猫咪议会",
+        "stack": "1 / 4",
+        "id": "council-of-cats",
+        "type": "Council of Cats",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "法瑞尔物品"
+            }
+        ]
+    },
+    {
+        "name": "风滚草",
+        "stack": "1 / 2",
+        "id": "the-tumbleweed",
+        "type": "The Tumbleweed",
+        "explicitMod": [
+            {
+                "type": "size-30",
+                "value": "救赎钻戒物品等级：100救赎者物品"
+            },
+            {
+                "type": "magicitem",
+                "value": "救赎钻戒"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "救赎者物品"
+            }
+        ]
+    },
+    {
+        "name": "知识之巢",
+        "stack": "1 / 6",
+        "id": "the-hive-of-knowledge",
+        "type": "The Hive of Knowledge",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "马奇纳护手"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "安赛娜丝的馈赠",
+        "stack": "1 / 5",
+        "id": "gift-of-asenath",
+        "type": "Gift of Asenath",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "安赛娜丝的安抚之语"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "风中之语",
+        "stack": "1 / 4",
+        "id": "a-note-in-the-wind",
+        "type": "A Note in the Wind",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "安赛娜丝的迅敏之冠"
+            }
+        ]
+    },
+    {
+        "name": "至高之愿",
+        "stack": "1 / 10",
+        "id": "the-greatest-intentions",
+        "type": "The Greatest Intentions",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "救世者"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "白衣骑士",
+        "stack": "1 / 8",
+        "id": "the-white-knight",
+        "type": "The White Knight",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连星芒战铠"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "圣战者物品"
+            }
+        ]
+    },
+    {
+        "name": "普罗米修斯之备",
+        "stack": "1 / 6",
+        "id": "prometheus-armoury",
+        "type": "Prometheus' Armoury",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "单手武器"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            }
+        ]
+    },
+    {
+        "name": "给养",
+        "stack": "1 / 3",
+        "id": "the-sustenance",
+        "type": "The Sustenance",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    },
+    {
+        "name": "安宁之时",
+        "stack": "1 / 5",
+        "id": "peaceful-moments",
+        "type": "Peaceful Moments",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "永恒珠宝"
+            }
+        ]
+    },
+    {
+        "name": "觉醒",
+        "stack": "1 / 6",
+        "id": "the-awakened",
+        "type": "The Awakened",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "珠宝"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "86"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            }
+        ]
+    },
+    {
+        "name": "熟悉的呼唤",
+        "stack": "1 / 3",
+        "id": "a-familiar-call",
+        "type": "A Familiar Call",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "法瑞尔珠宝"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "塑界者和狩猎者物品"
+            }
+        ]
+    },
+    {
+        "name": "长线钓鱼",
+        "stack": "1 / 4",
+        "id": "the-long-con",
+        "type": "The Long Con",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "裂界毁灭者的崇高石"
+            }
+        ]
+    },
+    {
+        "name": "天人永隔",
+        "stack": "1 / 5",
+        "id": "the-gulf",
+        "type": "The Gulf",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "希望之线"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "猛烈绽放",
+        "stack": "1 / 3",
+        "id": "the-bitter-blossom",
+        "type": "The Bitter Blossom",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21 级混沌宝石 "
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "十三大忌",
+        "stack": "1 / 13",
+        "id": "triskaidekaphobia",
+        "type": "Triskaidekaphobia",
+        "explicitMod": [
+            {
+                "type": "size-26",
+                "value": "地图"
+            },
+            {
+                "type": "rareitem",
+                "value": "地图"
+            },
+            {
+                "type": "size-26",
+                "value": "地图位阶： 13品质： +13%惊悸迷雾： 100%词缀： 8已腐化"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "13"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+13%"
+            },
+            {
+                "type": "default",
+                "value": "惊悸迷雾："
+            },
+            {
+                "type": "normal",
+                "value": "100%"
+            },
+            {
+                "type": "default",
+                "value": "词缀："
+            },
+            {
+                "type": "normal",
+                "value": "8"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "一厢情愿",
+        "stack": "1 / 16",
+        "id": "unrequited-love",
+        "type": "Unrequited Love",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "19x 镜子碎片"
+            }
+        ]
+    },
+    {
+        "name": "密藏",
+        "stack": "1 / 6",
+        "id": "the-cache",
+        "type": "The Cache",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "饰品"
+            }
+        ]
+    },
+    {
+        "name": "学院派",
+        "stack": "1 / 8",
+        "id": "the-academic",
+        "type": "The Academic",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "求知的热情"
+            }
+        ]
+    },
+    {
+        "name": "被亵渎的美德",
+        "stack": "1 / 9",
+        "id": "desecrated-virtue",
+        "type": "Desecrated Virtue",
+        "explicitMod": [
+            {
+                "type": "size-29",
+                "value": "6 级强化辅助宝石"
+            },
+            {
+                "type": "gemitem",
+                "value": "6 级强化辅助宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "兄弟的秘藏",
+        "stack": "",
+        "id": "brothers-stash",
+        "type": "Brother's Stash",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5x 崇高石"
+            }
+        ]
+    },
+    {
+        "name": "破除枷锁",
+        "stack": "1 / 4",
+        "id": "unchained",
+        "type": "Unchained",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "毁面者"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "意外收获",
+        "stack": "1 / 2",
+        "id": "the-unexpected-prize",
+        "type": "The Unexpected Prize",
+        "explicitMod": [
+            {
+                "type": "size-29",
+                "value": "属性变化珠宝"
+            },
+            {
+                "type": "uniqueitem",
+                "value": "属性变化珠宝"
+            },
+            {
+                "type": "size-29",
+                "value": "腐化"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "恶言诅咒",
+        "stack": "1 / 13",
+        "id": "cursed-words",
+        "type": "Cursed Words",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "害人之口"
+            }
+        ]
+    },
+    {
+        "name": "狗仔队",
+        "stack": "1 / 10",
+        "id": "the-journalist",
+        "type": "The Journalist",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "头盔"
+            },
+            {
+                "type": "default",
+                "value": "双重解密物品"
+            }
+        ]
+    },
+    {
+        "name": "幽影纠缠",
+        "stack": "1 / 4",
+        "id": "haunting-shadows",
+        "type": "Haunting Shadows",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "灾变物品"
+            }
+        ]
+    },
+    {
+        "name": "气候适应",
+        "stack": "1 / 2",
+        "id": "acclimatisation",
+        "type": "Acclimatisation",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "20x 改造石"
+            }
+        ]
+    },
+    {
+        "name": "雪盲",
+        "stack": "1 / 8",
+        "id": "the-whiteout",
+        "type": "The Whiteout",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "卡斯普里怨恨"
+            }
+        ]
+    },
+    {
+        "name": "社团之悔",
+        "stack": "",
+        "id": "societys-remorse",
+        "type": "Society's Remorse",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 改造石"
+            }
+        ]
+    },
+    {
+        "name": "消逝的光芒",
+        "stack": "1 / 10",
+        "id": "dying-light",
+        "type": "Dying Light",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "宝钻戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "塑界者+裂界者物品"
+            }
+        ]
+    },
+    {
+        "name": "命中注定",
+        "stack": "1 / 9",
+        "id": "fateful-meeting",
+        "type": "Fateful Meeting",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "赛季专属物品"
+            },
+            {
+                "type": "default",
+                "value": "双重影响效果物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "97"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "星象学家",
+        "stack": "1 / 7",
+        "id": "the-astromancer",
+        "type": "The Astromancer",
+        "explicitMod": [
+            {
+                "type": "size-27><uniqueitem",
+                "value": "永恒幽影"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "守护者之腐",
+        "stack": "1 / 7",
+        "id": "keepers-corruption",
+        "type": "Keeper's Corruption",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "古神的唤骨头盔 (集中效应效果)"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "89"
+            },
+            {
+                "type": "default",
+                "value": "裂界者物品"
+            }
+        ]
+    },
+    {
+        "name": "莽撞的野心",
+        "stack": "1 / 6",
+        "id": "reckless-ambition",
+        "type": "Reckless Ambition",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "至高天堂"
+            }
+        ]
+    },
+    {
+        "name": "跨冰之恋",
+        "stack": "1 / 4",
+        "id": "love-through-ice",
+        "type": "Love Through Ice",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "超自然本能"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "梦之涟漪",
+        "stack": "1 / 5",
+        "id": "draped-in-dreams",
+        "type": "Draped in Dreams",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "六连星芒战铠"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "病患",
+        "stack": "1 / 8",
+        "id": "the-patient",
+        "type": "The Patient",
+        "explicitMod": [
+            {
+                "type": "divination",
+                "value": "照料者"
+            }
+        ]
+    },
+    {
+        "name": "漫长守望",
+        "stack": "1 / 3",
+        "id": "the-long-watch",
+        "type": "The Long Watch",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    },
+    {
+        "name": "熊女",
+        "stack": "1 / 6",
+        "id": "the-bear-woman",
+        "type": "The Bear Woman",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "丰饶的熊首皮盔"
+            },
+            {
+                "type": "default",
+                "value": "督军物品"
+            }
+        ]
+    },
+    {
+        "name": "流放兄弟会",
+        "stack": "1 / 5",
+        "id": "brotherhood-in-exile",
+        "type": "Brotherhood in Exile",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "徒手空拳"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "凛冬之拥",
+        "stack": "1 / 2",
+        "id": "winters-embrace",
+        "type": "Winter's Embrace",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "恐惧之环"
+            },
+            {
+                "type": "enchanted",
+                "value": "三重基底"
+            }
+        ]
+    },
+    {
+        "name": "萨博辛之智",
+        "stack": "1 / 3",
+        "id": "sambodhis-wisdom",
+        "type": "Sambodhi's Wisdom",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "护甲"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+30%"
+            }
+        ]
+    },
+    {
+        "name": "古道热肠",
+        "stack": "1 / 3",
+        "id": "the-enthusiasts",
+        "type": "The Enthusiasts",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "维多里奥之绝响"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "破灭之诺",
+        "stack": "1 / 2",
+        "id": "broken-promises",
+        "type": "Broken Promises",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "宝钻戒指"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "87"
+            },
+            {
+                "type": "enchanted",
+                "value": "二重基底"
+            }
+        ]
+    },
+    {
+        "name": "笔墨横姿",
+        "stack": "1 / 5",
+        "id": "brush,-paint-and-palette",
+        "type": "Brush, Paint and Palette",
+        "explicitMod": [
+            {
+                "type": "divination",
+                "value": "艺者"
+            }
+        ]
+    },
+    {
+        "name": "致命之愉",
+        "stack": "1 / 6",
+        "id": "deadly-joy",
+        "type": "Deadly Joy",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "沧海桑田"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "冒险精神",
+        "stack": "1 / 6",
+        "id": "the-adventuring-spirit",
+        "type": "The Adventuring Spirit",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "维多里奥之绝响"
+            }
+        ]
+    },
+    {
+        "name": "永恒之战",
+        "stack": "1 / 4",
+        "id": "the-eternal-war",
+        "type": "The Eternal War",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "永恒珠宝"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "成见",
+        "stack": "1 / 7",
+        "id": "prejudice",
+        "type": "Prejudice",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "捷径",
+        "stack": "",
+        "id": "the-shortcut",
+        "type": "The Shortcut",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "猎豹之水银药剂"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "神恩之赐",
+        "stack": "1 / 4",
+        "id": "the-card-sharp",
+        "type": "The Card Sharp",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "神恩圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "微末的请求",
+        "stack": "1 / 3",
+        "id": "a-modest-request",
+        "type": "A Modest Request",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "妄想症"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "锃亮的宝箱",
+        "stack": "1 / 7",
+        "id": "luminous-trove",
+        "type": "Luminous Trove",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "天神之音"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "钩子",
+        "stack": "1 / 8",
+        "id": "the-hook",
+        "type": "The Hook",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "等级 21 宝石"
+            },
+            {
+                "type": "default",
+                "value": "替换品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "最后的晚餐",
+        "stack": "1 / 6",
+        "id": "the-last-supper",
+        "type": "The Last Supper",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "比诺的厨刀"
+            }
+        ]
+    },
+    {
+        "name": "万事皆空",
+        "stack": "1 / 6",
+        "id": "the-emptiness",
+        "type": "The Emptiness",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "瓦尔裂隙"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+6%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "蔚蓝之海",
+        "stack": "1 / 3",
+        "id": "a-sea-of-blue",
+        "type": "A Sea of Blue",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "13x 改造石"
+            }
+        ]
+    },
+    {
+        "name": "苗裔",
+        "stack": "1 / 9",
+        "id": "the-offspring",
+        "type": "The Offspring",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瑞斯拉萨的线圈"
+            }
+        ]
+    },
+    {
+        "name": "预见的代价",
+        "stack": "1 / 5",
+        "id": "the-price-of-prescience",
+        "type": "The Price of Prescience",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "瓦尔密殿地图"
+            },
+            {
+                "type": "default",
+                "value": "地图位阶："
+            },
+            {
+                "type": "normal",
+                "value": "16"
+            },
+            {
+                "type": "default",
+                "value": "惊悸迷雾："
+            },
+            {
+                "type": "normal",
+                "value": "100%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "心灵之眼",
+        "stack": "1 / 7",
+        "id": "the-minds-eyes",
+        "type": "The Mind's Eyes",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "星界投影"
+            }
+        ]
+    },
+    {
+        "name": "洪荒秘辛",
+        "stack": "1 / 8",
+        "id": "terrible-secret-of-space",
+        "type": "Terrible Secret of Space",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21级魔像技能石"
+            },
+            {
+                "type": "default",
+                "value": "品质:"
+            },
+            {
+                "type": "augmented",
+                "value": "+23%"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "穆希保佑",
+        "stack": "1 / 4",
+        "id": "the-blessing-of-moosh",
+        "type": "The Blessing of Moosh",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "物品"
+            },
+            {
+                "type": "enchanted",
+                "value": "迷宫附魔"
+            }
+        ]
+    },
+    {
+        "name": "无价之宝",
+        "stack": "1 / 6",
+        "id": "costly-curio",
+        "type": "Costly Curio",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "二重基底"
+            }
+        ]
+    },
+    {
+        "name": "泪腺坏死",
+        "stack": "1 / 3",
+        "id": "lachrymal-necrosis",
+        "type": "Lachrymal Necrosis",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "珠宝"
+            },
+            {
+                "type": "enchanted",
+                "value": "基底词缀："
+            },
+            {
+                "type": "magicitem",
+                "value": "腐化之血影响不了你"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "恐魔症",
+        "stack": "1 / 11",
+        "id": "dementophobia",
+        "type": "Dementophobia",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 雾魇宝珠"
+            }
+        ]
+    },
+    {
+        "name": "执着的野心",
+        "stack": "1 / 4",
+        "id": "ambitious-obsession",
+        "type": "Ambitious Obsession",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "迷踪的雾魇宝珠"
+            }
+        ]
+    },
+    {
+        "name": "绝望圣战",
+        "stack": "1 / 3",
+        "id": "desperate-crusade",
+        "type": "Desperate Crusade",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "元素的庇护"
+            }
+        ]
+    },
+    {
+        "name": "完美之石",
+        "stack": "1 / 5",
+        "id": "a-stone-perfected",
+        "type": "A Stone Perfected",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "珠宝"
+            },
+            {
+                "type": "magicitem",
+                "value": "起源"
+            },
+            {
+                "type": "corrupted",
+                "value": "1-2 个基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "瓦尔宝藏",
+        "stack": "1 / 12",
+        "id": "treasures-of-the-vaal",
+        "type": "Treasures of the Vaal",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "瓦尔珠宝"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "幸运兔脚",
+        "stack": "1 / 8",
+        "id": "the-rabbits-foot",
+        "type": "The Rabbit's Foot",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 穿越魔瓶"
+            }
+        ]
+    },
+    {
+        "name": "风险追逐",
+        "stack": "1 / 4",
+        "id": "chasing-risk",
+        "type": "Chasing Risk",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "忆境物品"
+            }
+        ]
+    },
+    {
+        "name": "黑暗君王",
+        "stack": "1 / 6",
+        "id": "the-prince-of-darkness",
+        "type": "The Prince of Darkness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "优雅的狂妄"
+            }
+        ]
+    },
+    {
+        "name": "隐情",
+        "stack": "1 / 18",
+        "id": "the-catch",
+        "type": "The Catch",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "鱼竿"
+            },
+            {
+                "type": "enchanted",
+                "value": "已孕育"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "99"
+            }
+        ]
+    },
+    {
+        "name": "永恒羁绊",
+        "stack": "1 / 4",
+        "id": "eternal-bonds",
+        "type": "Eternal Bonds",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "脑层"
+            }
+        ]
+    },
+    {
+        "name": "蔑视",
+        "stack": "1 / 5",
+        "id": "disdain",
+        "type": "Disdain",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "雾魇宝珠"
+            }
+        ]
+    },
+    {
+        "name": "斥候",
+        "stack": "1 / 8",
+        "id": "the-scout",
+        "type": "The Scout",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "7x 崇高石"
+            }
+        ]
+    },
+    {
+        "name": "守卫的挑战",
+        "stack": "1 / 4",
+        "id": "guardians-challenge",
+        "type": "Guardian's Challenge",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "塑界守卫地图"
+            }
+        ]
+    },
+    {
+        "name": "被遗忘的宝藏",
+        "stack": "1 / 6",
+        "id": "the-forgotten-treasure",
+        "type": "The Forgotten Treasure",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "皮革腰带"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            }
+        ]
+    },
+    {
+        "name": "荆林之狐",
+        "stack": "1 / 7",
+        "id": "the-fox-in-the-brambles",
+        "type": "The Fox in the Brambles",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "刺棘宝甲"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "雄心",
+        "stack": "1 / 5",
+        "id": "the-aspirant",
+        "type": "The Aspirant",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "尊崇物品"
+            },
+            {
+                "type": "default",
+                "value": "影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "审判之音",
+        "stack": "1 / 9",
+        "id": "judging-voices",
+        "type": "Judging Voices",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "禁断的军帽"
+            }
+        ]
+    },
+    {
+        "name": "地摊货",
+        "stack": "1 / 3",
+        "id": "bijoux",
+        "type": "Bijoux",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "星团珠宝"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "84"
+            }
+        ]
+    },
+    {
+        "name": "死寂严冬",
+        "stack": "1 / 7",
+        "id": "silence-and-frost",
+        "type": "Silence and Frost",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "群魔殿"
+            }
+        ]
+    },
+    {
+        "name": "黑暗之苦",
+        "stack": "1 / 6",
+        "id": "misery-in-darkness",
+        "type": "Misery in Darkness",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "泯光寿衣"
+            }
+        ]
+    },
+    {
+        "name": "恒久榨取",
+        "stack": "1 / 8",
+        "id": "the-tireless-extractor",
+        "type": "The Tireless Extractor",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 圣油"
+            }
+        ]
+    },
+    {
+        "name": "志向高远",
+        "stack": "1 / 5",
+        "id": "justified-ambition",
+        "type": "Justified Ambition",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "忆境地图"
+            }
+        ]
+    },
+    {
+        "name": "寄生客",
+        "stack": "1 / 8",
+        "id": "parasitic-passengers",
+        "type": "Parasitic Passengers",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 孕育石"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "84"
+            }
+        ]
+    },
+    {
+        "name": "二刀流",
+        "stack": "1 / 2",
+        "id": "duality",
+        "type": "Duality",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "身体护甲"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "双重影响效果物品"
+            }
+        ]
+    },
+    {
+        "name": "离开的人是你",
+        "stack": "1 / 7",
+        "id": "the-one-that-got-away",
+        "type": "The One That Got Away",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "凝息【仿品】"
+            }
+        ]
+    },
+    {
+        "name": "变身",
+        "stack": "1 / 5",
+        "id": "the-transformation",
+        "type": "The Transformation",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "污秽神秘石"
+            }
+        ]
+    },
+    {
+        "name": "代表作",
+        "stack": "1 / 5",
+        "id": "magnum-opus",
+        "type": "Magnum Opus",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "enchanted",
+                "value": "三重基底"
+            },
+            {
+                "type": "enchanted",
+                "value": "忆境"
+            }
+        ]
+    },
+    {
+        "name": "不完美的回忆",
+        "stack": "1 / 5",
+        "id": "imperfect-memories",
+        "type": "Imperfect Memories",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "饰品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "enchanted",
+                "value": "三重基底"
+            },
+            {
+                "type": "enchanted",
+                "value": "忆境"
+            }
+        ]
+    },
+    {
+        "name": "熔岩蟹",
+        "stack": "1 / 6",
+        "id": "the-magma-crab",
+        "type": "The Magma Crab",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21 级瓦尔熔岩护盾"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "改变知觉",
+        "stack": "1 / 3",
+        "id": "altered-perception",
+        "type": "Altered Perception",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "梦魇拟像"
+            }
+        ]
+    },
+    {
+        "name": "更新发明",
+        "stack": "1 / 4",
+        "id": "further-invention",
+        "type": "Further Invention",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "头部"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "强壮的战斗法师",
+        "stack": "1 / 5",
+        "id": "the-brawny-battle-mage",
+        "type": "The Brawny Battle Mage",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "无情狂风法杖"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "name": "比死亡更悲惨的命运",
+        "stack": "1 / 4",
+        "id": "a-fate-worse-than-death",
+        "type": "A Fate Worse Than Death",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "脑层"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "目的地",
+        "stack": "1 / 9",
+        "id": "the-destination",
+        "type": "The Destination",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "守望之眼"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "重生与新生",
+        "stack": "1 / 4",
+        "id": "rebirth-and-renewal",
+        "type": "Rebirth and Renewal",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "有翼的圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "放远目光",
+        "stack": "1 / 6",
+        "id": "the-forward-gaze",
+        "type": "The Forward Gaze",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "仿品"
+            }
+        ]
+    },
+    {
+        "name": "药剂师",
+        "stack": "1 / 5",
+        "id": "the-apothecary",
+        "type": "The Apothecary",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "法师之血"
+            }
+        ]
+    },
+    {
+        "name": "家园",
+        "stack": "1 / 3",
+        "id": "home",
+        "type": "Home",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "卓越宝石"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+1-20%"
+            }
+        ]
+    },
+    {
+        "name": "地下城大师",
+        "stack": "1 / 7",
+        "id": "the-dungeon-master",
+        "type": "The Dungeon Master",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "腰带"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            }
+        ]
+    },
+    {
+        "name": "从骨到灰",
+        "stack": "1 / 8",
+        "id": "from-bone-to-ashes",
+        "type": "From Bone to Ashes",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "努葛玛呼之耀"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "已腐化"
+            }
+        ]
+    },
+    {
+        "name": "黑暗半面",
+        "stack": "1 / 3",
+        "id": "darker-half",
+        "type": "Darker Half",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5x古灵混沌石"
+            }
+        ]
+    },
+    {
+        "name": "破碎休战",
+        "stack": "1 / 5",
+        "id": "broken-truce",
+        "type": "Broken Truce",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "寒铁刃"
+            }
+        ]
+    },
+    {
+        "name": "多里亚尼的启蒙",
+        "stack": "1 / 3",
+        "id": "doryanis-epiphany",
+        "type": "Doryani's Epiphany",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "3x校正透镜"
+            }
+        ]
+    },
+    {
+        "name": "无尽夜晚",
+        "stack": "1 / 7",
+        "id": "endless-night",
+        "type": "Endless Night",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "马洛尼的技巧"
+            }
+        ]
+    },
+    {
+        "name": "持盾人",
+        "stack": "1 / 8",
+        "id": "the-shieldbearer",
+        "type": "The Shieldbearer",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "侍从"
+            }
+        ]
+    },
+    {
+        "name": "窒息愧疚",
+        "stack": "1 / 6",
+        "id": "choking-guilt",
+        "type": "Choking Guilt",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "黑曜护身符"
+            }
+        ]
+    },
+    {
+        "name": "执行官",
+        "stack": "1 / 4",
+        "id": "the-enforcer",
+        "type": "The Enforcer",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "征服尖刺手部护甲（终结）"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "86"
+            },
+            {
+                "type": "default",
+                "value": "大军阀物品"
+            }
+        ]
+    },
+    {
+        "name": "牧羊人的凉鞋",
+        "stack": "1 / 3",
+        "id": "the-shepherds-sandals",
+        "type": "The Shepherd's Sandals",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "靴子"
+            },
+            {
+                "type": "default",
+                "value": "物品等级"
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "天蓝之怒",
+        "stack": "1 / 4",
+        "id": "azure-rage",
+        "type": "Azure Rage",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "惩罚地图"
+            },
+            {
+                "type": "default",
+                "value": "地图等级："
+            },
+            {
+                "type": "normal",
+                "value": "16"
+            }
+        ]
+    },
+    {
+        "name": "海怪",
+        "stack": "1 / 7",
+        "id": "the-leviathan",
+        "type": "The Leviathan",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "贤主物品"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "虔诚的代价",
+        "stack": "1 / 7",
+        "id": "the-price-of-devotion",
+        "type": "The Price of Devotion",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "法师之血"
+            },
+            {
+                "type": "default",
+                "value": "质量："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            },
+            {
+                "type": "corrupted",
+                "value": "二重基底"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "星界防护",
+        "stack": "1 / 5",
+        "id": "astral-protection",
+        "type": "Astral Protection",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "护盾"
+            },
+            {
+                "type": "default",
+                "value": "塑界者物品"
+            }
+        ]
+    },
+    {
+        "name": "宝石匠的仁慈",
+        "stack": "1 / 3",
+        "id": "gemcutters-mercy",
+        "type": "Gemcutter's Mercy",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "卓越宝石"
+            }
+        ]
+    },
+    {
+        "name": "挫败",
+        "stack": "1 / 8",
+        "id": "checkmate",
+        "type": "Checkmate",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "76x 梦魇拟像碎片"
+            }
+        ]
+    },
+    {
+        "name": "遗忘诱惑",
+        "stack": "1 / 6",
+        "id": "lethean-temptation",
+        "type": "Lethean Temptation",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "内布利斯"
+            }
+        ]
+    },
+    {
+        "name": "黑暗之物",
+        "stack": "1 / 5",
+        "id": "something-dark",
+        "type": "Something Dark",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "蓝图"
+            },
+            {
+                "type": "default",
+                "value": "区域等级："
+            },
+            {
+                "type": "normal",
+                "value": "83"
+            },
+            {
+                "type": "default",
+                "value": "完全显示"
+            }
+        ]
+    },
+    {
+        "name": "人熊合一",
+        "stack": "1 / 3",
+        "id": "man-with-bear",
+        "type": "Man With Bear",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "魔圣甲虫"
+            }
+        ]
+    },
+    {
+        "name": "艾莉薇娅之雅",
+        "stack": "1 / 6",
+        "id": "alivias-grace",
+        "type": "Alivia's Grace",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "森林之后"
+            }
+        ]
+    },
+    {
+        "name": "吉庆雄心",
+        "stack": "1 / 4",
+        "id": "auspicious-ambitions",
+        "type": "Auspicious Ambitions",
+        "explicitMod": [
+            {
+                "type": "whiteitem",
+                "value": "实验物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "default",
+                "value": "双重影响物品"
+            }
+        ]
+    },
+    {
+        "name": "至美圣容",
+        "stack": "1 / 12",
+        "id": "divine-beauty",
+        "type": "Divine Beauty",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "7x 神圣石"
+            }
+        ]
+    },
+    {
+        "name": "新婚赠礼",
+        "stack": "1 / 2",
+        "id": "the-wedding-gift",
+        "type": "The Wedding Gift",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿拉卡力之牙"
+            }
+        ]
+    },
+    {
+        "name": "失智猫咪",
+        "stack": "1 / 9",
+        "id": "the-insane-cat",
+        "type": "The Insane Cat",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "法师之血"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "84"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "变幻无定",
+        "stack": "1 / 3",
+        "id": "ever-changing",
+        "type": "Ever-Changing",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "10x 粉碎石"
+            }
+        ]
+    },
+    {
+        "name": "尘封记忆",
+        "stack": "1 / 5",
+        "id": "a-dusty-memory",
+        "type": "A Dusty Memory",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "物品"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "100"
+            },
+            {
+                "type": "fractured",
+                "value": "分裂"
+            }
+        ]
+    },
+    {
+        "name": "硕鼠归来",
+        "stack": "1 / 3",
+        "id": "the-return-of-the-rat",
+        "type": "The Return of the Rat",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "圣令"
+            }
+        ]
+    },
+    {
+        "name": "终结一触",
+        "stack": "1 / 2",
+        "id": "the-finishing-touch",
+        "type": "The Finishing Touch",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "1x 丰沃催化剂"
+            }
+        ]
+    },
+    {
+        "name": "兄弟赐福",
+        "stack": "",
+        "id": "brothers-gift",
+        "type": "Brother's Gift",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "5x 神圣石"
+            }
+        ]
+    },
+    {
+        "name": "灵魂淬火",
+        "stack": "1 / 5",
+        "id": "soul-quenched",
+        "type": "Soul Quenched",
+        "explicitMod": [
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "86"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+30%"
+            }
+        ]
+    },
+    {
+        "name": "毒浸信仰",
+        "stack": "1 / 8",
+        "id": "poisoned-faith",
+        "type": "Poisoned Faith",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "阿拉卡力之牙"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "一股寒风",
+        "stack": "1 / 4",
+        "id": "a-chilling-wind",
+        "type": "A Chilling Wind",
+        "explicitMod": [
+            {
+                "type": "gemitem",
+                "value": "21级瓦尔：霜暴"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "套娃",
+        "stack": "1 / 8",
+        "id": "matryoshka",
+        "type": "Matryoshka",
+        "explicitMod": [
+            {
+                "type": "rareitem",
+                "value": "黑耀护身符"
+            },
+            {
+                "type": "default",
+                "value": "物品等级："
+            },
+            {
+                "type": "normal",
+                "value": "85"
+            },
+            {
+                "type": "default",
+                "value": "品质："
+            },
+            {
+                "type": "augmented",
+                "value": "+20%"
+            },
+            {
+                "type": "default",
+                "value": "受影响物品"
+            },
+            {
+                "type": "enchanted",
+                "value": "4圣油"
+            },
+            {
+                "type": "enchanted",
+                "value": "魔符孕育物品"
+            },
+            {
+                "type": "corrupted",
+                "value": "腐化"
+            }
+        ]
+    },
+    {
+        "name": "垂青之运",
+        "stack": "1 / 12",
+        "id": "the-fortunate",
+        "type": "The Fortunate",
+        "explicitMod": [
+            {
+                "type": "currencyitem",
+                "value": "2x 神圣石"
+            }
+        ]
+    },
+    {
+        "name": "无根之火",
+        "stack": "1 / 7",
+        "id": "fire-of-unknown-origin",
+        "type": "Fire Of Unknown Origin",
+        "explicitMod": [
+            {
+                "type": "uniqueitem",
+                "value": "尼米斯"
+            }
+        ]
+    },
+    {
+        "name": "他的裁定",
+        "stack": "1 / 5",
+        "id": "his-judgement",
+        "type": "His Judgement",
+        "explicitMod": [
+            {
+                "type": "magicitem",
+                "value": "禁用"
+            }
+        ]
+    }
+]
