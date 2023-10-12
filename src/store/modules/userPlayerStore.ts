@@ -151,6 +151,8 @@ const userPlayerStore = defineStore('player', {
             if (!itemDetail.item) return;
             const targetGrid = gridInfo.filter((item, i) => {
                 return (item.inner && itemDetail && item.inner.itemId === itemDetail.itemId && item.inner.item.stack > item.inner.quantity) || !item.inner;
+            }).sort((a, b) => {
+                return (b.inner ? 1 : 0) - (a.inner ? 1 : 0);
             });
             for (let index = 0; index < targetGrid.length; index++) {
                 if (!itemDetail || !itemDetail.item) break;
@@ -207,7 +209,7 @@ const userPlayerStore = defineStore('player', {
         /**
          * 清除日志
          */
-        CLEAR_RECORDS () {
+        CLEAR_RECORDS() {
             this.records = [];
         }
     },
