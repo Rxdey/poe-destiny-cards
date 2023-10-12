@@ -20,7 +20,7 @@ type CreateDocumentOptions<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, 
 // type CustomVideoData = CreateDocumentOptions<VideoDetail, 'id'|'cover'>|null;
 interface MainState {
     player: PlayerData,
-    record: any
+    records: any
 }
 
 type UpdateItemPosition = {
@@ -35,7 +35,7 @@ type UpdateItemPosition = {
 const userPlayerStore = defineStore('player', {
     state: (): MainState => ({
         player: PLAYER_DATA,
-        record: []
+        records: []
     }),
     actions: {
         /** 调整物品数量 */
@@ -74,12 +74,13 @@ const userPlayerStore = defineStore('player', {
             return newItem;
         },
         /**
-         * 鼠标物品shift拆分
-         * @param currentId 当前堆叠记录ID
-         * @param targetGridId 目标格子ID
+         * 物品带数量移动(暂用于shift拆分)
+         * @param id 当前堆叠记录ID
+         * @param gridId 目标格子ID
+         * @param position 目标格子位置
          * @returns 
          */
-        SPLIT_SINGLE_ITEMS({ gridId, id, position }: UpdateItemPosition) {
+        SPLIT_SINGLE_ITEMS({ gridId, id, position, num = 1 }: UpdateItemPosition & { num?: number }) {
             // 查找当前坐标
             const current = this.GET_ITEM_BY_ID(id);
             if (!current) return;
@@ -87,10 +88,10 @@ const userPlayerStore = defineStore('player', {
             const target = this.player.items.find(item => item.gridId === gridId);
             // 不存在创建一个新堆叠
             if (!target) {
-                this.SET_ITEMS_NUM(current.id, current.quantity - 1)
+                this.SET_ITEMS_NUM(current.id, current.quantity - num)
                 this.CREATE_ITEM({
                     itemId: current.itemId,
-                    quantity: 1,
+                    quantity: num,
                     position: position,
                     gridId
                 });
@@ -100,11 +101,18 @@ const userPlayerStore = defineStore('player', {
             if (target.itemId !== current.itemId) return;
             const ITEM = this.FIND_ITEM_DETAIL(target.itemId);
             // 堆叠数超过最大不处理
-            if (!ITEM || target.quantity >= ITEM?.stack) return;
-            this.SET_ITEMS_NUM(current.id, current.quantity - 1)
-            this.SET_ITEMS_NUM(target.id, target.quantity + 1);
+            if (!ITEM || target.quantity + num > ITEM?.stack) return;
+            if (num > current.quantity) return;
+            this.SET_ITEMS_NUM(current.id, current.quantity - num)
+            this.SET_ITEMS_NUM(target.id, target.quantity + num);
         },
-        /** 更新位置 */
+        /**
+         * 移动物品
+         * @param id 当前堆叠记录ID
+         * @param gridId 目标格子ID
+         * @param position 目标格子位置
+         * @returns 
+         */
         UPDATE_ITEM_POSITION({ gridId, id, position }: UpdateItemPosition) {
             /** 当前物品 */
             const current = this.GET_ITEM_BY_ID(id);
@@ -167,34 +175,40 @@ const userPlayerStore = defineStore('player', {
             }
         },
         /**
-         * 
+         * 添加日志
          * @param itemId 物品id
          * @param res 数量
          * @param type 类型 1 赌卡 2 获取
          */
         SET_RECORD(itemId: string, num: number, type: number) {
-            const data = {
-                id: uuidv4(),
-                date: dayjs().format('YYYY年MM月DD日 HH时mm分ss秒'),
-                itemId,
-                num,
-                type
-            };
-            this.record.push(data);
-
             const cardInfo = this.FIND_ITEM_DETAIL(itemId);
             if (!cardInfo) return;
-            const r = (num: number) => {
-                if (num > 0) return `小赚 ${num} 张《${cardInfo.name}》`;
-                if (num === 0) return '啥事都没有发生';
-                return `血亏 ${Math.abs(num)} 张《${cardInfo.name}》`
+            const data = {
+                id: uuidv4(),
+                date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
+                itemId,
+                num,
+                type,
+                itemName: cardInfo.name
             };
-            const typeAction: any = {
-                1: `赌了一手, ${r(num)}`,
-                2: `向系统索取卡片,系统反手发你一张《${cardInfo.name}》`
-            };
-            const str = `${data.date} 你${typeAction[type]} `;
-            console.log(str)
+            this.records.push(data);
+            // const r = (num: number) => {
+            //     if (num > 0) return `小赚 ${num} 张《${cardInfo.name}》`;
+            //     if (num === 0) return '啥事都没有发生';
+            //     return `血亏 ${Math.abs(num)} 张《${cardInfo.name}》`
+            // };
+            // const typeAction: any = {
+            //     1: `赌了一手, ${r(num)}`,
+            //     2: `向系统索取卡片,系统反手发你一张《${cardInfo.name}》`
+            // };
+            // const str = `${data.date} 你${typeAction[type]} `;
+            // console.log(str)
+        },
+        /**
+         * 清除日志
+         */
+        CLEAR_RECORDS () {
+            this.records = [];
         }
     },
     getters: {

@@ -1,25 +1,41 @@
 <template>
-    <el-popover placement="top" :width="180" trigger="hover" effect="dark" :show-arrow="false" popper-style="background-color: transparent;border:none;padding-bottom: 0;pointer-events: none;" :disabled="moveable" v-if="data && data.item" :hide-after="0" :show-after="200">
+    <el-popover placement="top" :width="160" effect="dark" :show-arrow="false" :popper-style="popupStyle" :disabled="moveable" v-if="data && data.item" :hide-after="0" :show-after="0" :offset="0" :fallbackPlacements="['left-start']" transition="none" :visible="show">
         <template #reference>
-            <div class="mini-item-icon" :class="{ moveable }" @click.stop="onClick" ref="custom">
+            <div class="mini-item-icon" :class="{ moveable }" @click.stop="onClick" ref="custom" @mouseover="onMouseOver" @mouseout="onMouseOut" @mouseleave="onMouseOut">
                 <img src="/img/InventoryIcon.webp">
                 <div class="card-num" :class="{ full: data.quantity === data.item.stack }">{{ data.quantity }}</div>
             </div>
         </template>
-        <DivinationCard class="ignore" :type="data.item?.type" :quantity="data.quantity" />
+        <div v-if="show">
+            <DivinationCard class="ignore" :type="data.item?.type" :quantity="data.quantity" v-if="!showSplit" />
+            <div v-else class="split-bar" @mousedown.stop>
+                <Slider :min="0" :max="Math.min(data.item.stack, data.quantity)" v-model="splitVal" />
+                <div class="split-button">
+                    <el-button type="info" :icon="Check" circle size="small" @click="onSubmitSplit" />
+                </div>
+            </div>
+        </div>
     </el-popover>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watch, onBeforeUnmount } from 'vue';
-import { useRouter, useRoute } from 'vue-router';
+import { ref, onMounted, computed, watch, onBeforeUnmount, StyleValue } from 'vue';
+import { Check } from '@element-plus/icons-vue'
 import DivinationCard from '../DivinationCard/DivinationCard.vue';
 import { PackItem } from '@/store/types';
 import userPlayerStore from '@/store/modules/userPlayerStore';
 import { GRID_TYPE } from '@/data/const.data';
+import Slider from '../slider/slider.vue';
 
 const playerStore = userPlayerStore();
 
+const popupStyle: StyleValue = {
+    'background-color': 'transparent',
+    'border': 'none',
+    'padding': 0,
+    'pointer-events': 'none',
+    'line-height': 1
+};
 type Props = {
     data: PackItem,
     position: GRID_TYPE,
@@ -35,48 +51,71 @@ const props = withDefaults(defineProps<Props>(), {
     // position: null
 });
 
+const show = ref(false);
 const moveable = ref(false);
+const showSplit = ref(false);
+// 分割数量
+const splitVal = ref(1);
+
+const inputVal = ref('');
+
 const custom = ref<HTMLDivElement | null>(null);
 
-const mouseMove = (e: MouseEvent) => {
-    const { clientX, clientY } = e;
-    if (!custom.value) return;
-    custom.value.style.left = `${clientX}px`;
-    custom.value.style.top = `${clientY}px`;
+/** 确认拆分 */
+const onSubmitSplit = () => {
+    // reset后重置，要在之前取值
+    const val = splitVal.value;
+    console.log(val);
+    playerStore.SPLIT_SINGLE_ITEMS({
+        gridId: 'mouse',
+        id: props.data.id,
+        position: GRID_TYPE.MOUSE,
+        num: val
+    })
+    resetSplit();
+};
+/** 移除拆分 */
+const resetSplit = () => {
+    show.value = false;
+    showSplit.value = false;
+    splitVal.value = 1;
+    document.body.onmousedown = null;
+    document.body.onkeydown = null;
+    document.body.onkeyup = null;
 };
 /** 拆分 */
-const splitItems = () => { };
-/** 移动 */
-const moveItems = () => {
-    /** 背包信息 */
-    const gridInfo = props.position === GRID_TYPE.PACK ? playerStore.WORK_GRIDS : playerStore.PACK_GRIDS;
-    // 查找目标出存在的相同物品且堆叠没满的格子, 如果没有则查找所有最近的空格
-    if (!props.data.item) return;
-    const targetGrid = gridInfo.filter((item, i) => {
-        return (item.inner && props.data && item.inner.itemId === props.data.itemId && item.inner.item.stack > item.inner.quantity) || !item.inner;
-    });
-    for (let index = 0; index < targetGrid.length; index++) {
-        if (!props.data || !props.data.item) break;
-        const el = targetGrid[index];
-        if (!el.inner) {
-            if (props.data.quantity <= props.data.item.stack) {
-                playerStore.UPDATE_ITEM_POSITION({
-                    gridId: el.id,
-                    id: props.data.id,
-                    position: el.type,
-                });
-                break;
+const splitItems = () => {
+    showSplit.value = true;
+    show.value = false;
+    setTimeout(() => {
+        show.value = true;
+    }, 0);
+    document.body.onmousedown = resetSplit;
+    document.body.onkeydown = (e: KeyboardEvent) => {
+        if (e.key === 'Enter') {
+            onSubmitSplit();
+            return;
+        }
+        if (/\d/.test(e.key)) {
+            inputVal.value += e.key;
+            // console.log(inputVal.value)
+            if (parseInt(inputVal.value) < Math.min(props.data.item.stack, props.data.quantity)) {
+                splitVal.value = parseInt(inputVal.value);
+            } else {
+                splitVal.value = Math.min(props.data.item.stack, props.data.quantity);
             }
-        } else {
-            playerStore.UPDATE_ITEM_POSITION({
-                gridId: el.id,
-                id: props.data.id,
-                position: el.type,
-            });
-
         }
     }
-}
+    let st: number | null = null;
+    document.body.onkeyup = (e: KeyboardEvent) => {
+        if (/\d/.test(e.key)) {
+            if (st) window.clearTimeout(st);
+            st = setTimeout(() => {
+                inputVal.value = '';
+            }, 100);
+        }
+    }
+};
 /** 点击 */
 const onClick = (event: MouseEvent) => {
     if (moveable.value || !props.data) return;
@@ -91,7 +130,7 @@ const onClick = (event: MouseEvent) => {
         playerStore.AUTO_MOVE(props.data, props.position);
         return;
     }
-    // 检查 Ctrl 键是否按下
+    // 检查 shift 键是否按下
     if (event.shiftKey) {
         splitItems();
         return;
@@ -102,12 +141,29 @@ const onClick = (event: MouseEvent) => {
         position: GRID_TYPE.MOUSE,
     });
 }
+/** 目标位置在鼠标上时，跟随鼠标移动 */
+const mouseMove = (e: MouseEvent) => {
+    const { clientX, clientY } = e;
+    if (!custom.value) return;
+    custom.value.style.left = `${clientX}px`;
+    custom.value.style.top = `${clientY}px`;
+};
+
 /** 结束移动 */
 const handleReset = () => {
     if (!custom.value) return;
     moveable.value = false;
     document.body.removeEventListener('mousemove', mouseMove)
 }
+
+/** 自定义popover显示 */
+const onMouseOut = () => {
+    if (showSplit.value) return;
+    show.value = false;
+};
+const onMouseOver = () => {
+    show.value = true;
+};
 
 onMounted(() => {
     // 如果在鼠标位置，跟随鼠标移动
@@ -162,5 +218,20 @@ onBeforeUnmount(() => {
 
 .ignore {
     pointer-events: none;
+}
+
+.split-bar {
+    width: 160px;
+    background-color: rgb(24, 19, 15);
+    border: 1px solid rgb(76, 51, 31);
+    pointer-events: all;
+    margin: 0 auto;
+    color: rgb(144, 138, 132);
+    padding: 10px 0 5px 0;
+
+    .split-button {
+        padding: 10px 5px 0 0;
+        text-align: right;
+    }
 }
 </style>

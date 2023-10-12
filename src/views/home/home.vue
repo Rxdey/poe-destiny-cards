@@ -8,11 +8,12 @@
     <div class="menu">
       <!-- <Stash v-model="showStash" /> -->
       <Workbench v-model="showWorkbench" />
-      <Pack />
+      <Pack @log="showLog = true"/>
     </div>
     <Teleport to="body" v-if="mouseItem">
       <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="currentXY" />
     </Teleport>
+    <Log v-model="showLog"/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@
 import { ref, onMounted, computed, watch } from 'vue';
 import Workbench from '@/components/Workbench/Workbench.vue';
 import Pack from '@/components/Pack/Pack.vue';
+import Log from '@/components/Log/Log.vue';
 import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
 import userPlayerStore from '@/store/modules/userPlayerStore';
 import { GenerateCard } from '@/factory';
@@ -34,6 +36,7 @@ const GAME_BUTTONS = [
   { name: '传送', key: 'Waypoint' },
 ];
 
+const showLog = ref(false);
 const showWorkbench = ref(true);
 const currentXY = ref({
   clientX: 0,
@@ -52,6 +55,7 @@ onMounted(() => {
 });
 
 watch(() => mouseItem.value, (val) => {
+  // 初始化位置会有点问题，这里全局保存下
   document.body.onmousemove = val ? null : (e: MouseEvent) => {
     currentXY.value = {
       clientX: e.clientX,

@@ -23,10 +23,9 @@ import { GRID_TYPE } from '@/data/const.data';
 import { eventBus } from '@/store/bus';
 import random from 'random';
 
+const emit = defineEmits(['log']);
 const playerStore = userPlayerStore();
-
 const packGrids = computed(() => playerStore.PACK_GRIDS);
-
 /** 鼠标单张放置 */
 const splitSingleItems = (data: Grids) => {
     if (!playerStore.MOUSE_ITEM) return;
@@ -53,9 +52,10 @@ const onGridClick = (event: MouseEvent, data: Grids) => {
 };
 
 const showLog = () => {
-    ElMessage.warning('还没写好');
+    // ElMessage.warning('还没写好');
     // const str = `${}`;
-    console.log(playerStore.record);
+    // console.log(playerStore.records);
+    emit('log');
 };
 
 const giveMeCard = () => {
