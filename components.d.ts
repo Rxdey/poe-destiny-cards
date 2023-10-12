@@ -11,6 +11,8 @@ declare module 'vue' {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElDrawer: typeof import('element-plus/es')['ElDrawer']
     ElPopover: typeof import('element-plus/es')['ElPopover']
+    ElTabPane: typeof import('element-plus/es')['ElTabPane']
+    ElTabs: typeof import('element-plus/es')['ElTabs']
     Log: typeof import('./src/components/Log/Log.vue')['default']
     MiniItemIcon: typeof import('./src/components/MiniItemIcon/MiniItemIcon.vue')['default']
     Pack: typeof import('./src/components/Pack/Pack.vue')['default']

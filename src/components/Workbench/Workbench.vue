@@ -107,7 +107,7 @@ const gamblingCard = () => {
     const randomNum = random.int(0, range);
     // 结果
     const res = randomNum - customCard.value.quantity;
-    playerStore.SET_RECORD(customCard.value.itemId, res, 1);
+    playerStore.SET_RECORD(customCard.value.itemId, res, 1, customCard.value.quantity);
     playerStore.SET_ITEMS_NUM(customCard.value.id, customCard.value.quantity + res);
 }
 </script>

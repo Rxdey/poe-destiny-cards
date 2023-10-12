@@ -182,7 +182,7 @@ const userPlayerStore = defineStore('player', {
          * @param res 数量
          * @param type 类型 1 赌卡 2 获取
          */
-        SET_RECORD(itemId: string, num: number, type: number) {
+        SET_RECORD(itemId: string, num: number, type: number, originNum = 0) {
             const cardInfo = this.FIND_ITEM_DETAIL(itemId);
             if (!cardInfo) return;
             const data = {
@@ -190,6 +190,7 @@ const userPlayerStore = defineStore('player', {
                 date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
                 itemId,
                 num,
+                originNum,
                 type,
                 itemName: cardInfo.name
             };
