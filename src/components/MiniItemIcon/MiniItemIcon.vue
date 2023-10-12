@@ -118,6 +118,11 @@ const splitItems = () => {
 };
 /** 点击 */
 const onClick = (event: MouseEvent) => {
+    // 鼠标物品需要初始化定位
+    playerStore.SET_GLOBAL_XY({
+        clientX: event.clientX,
+        clientY: event.clientY
+    });
     if (moveable.value || !props.data) return;
     // 如果鼠标位置存在物品，透传到格子
     if (playerStore.MOUSE_ITEM) {

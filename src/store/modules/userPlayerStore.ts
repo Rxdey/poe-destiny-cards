@@ -20,7 +20,11 @@ type CreateDocumentOptions<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, 
 // type CustomVideoData = CreateDocumentOptions<VideoDetail, 'id'|'cover'>|null;
 interface MainState {
     player: PlayerData,
-    records: any
+    records: any,
+    globalXY: {
+        clientX: number,
+        clientY: number,
+    }
 }
 
 type UpdateItemPosition = {
@@ -35,9 +39,16 @@ type UpdateItemPosition = {
 const userPlayerStore = defineStore('player', {
     state: (): MainState => ({
         player: PLAYER_DATA,
+        globalXY: {
+            clientX: 0,
+            clientY: 0
+        },
         records: []
     }),
     actions: {
+        SET_GLOBAL_XY (data: MainState['globalXY']) {
+            this.globalXY = data;
+        },
         /** 调整物品数量 */
         SET_ITEMS_NUM(id: string, num: number) {
             if (num <= 0) {

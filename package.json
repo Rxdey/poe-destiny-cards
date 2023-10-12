@@ -15,6 +15,7 @@
     "amfe-flexible": "^2.2.1",
     "axios": "^1.5.0",
     "dayjs": "^2.0.0-alpha.4",
+    "echarts": "^5.4.3",
     "element-plus": "^2.3.14",
     "less": "^4.2.0",
     "lodash": "^4.17.21",
@@ -25,6 +26,7 @@
     "reset.css": "^2.0.2",
     "uuid": "^9.0.1",
     "vue": "^3.3.4",
+    "vue-echarts": "^6.6.1",
     "vue-lazyload": "^3.0.0",
     "vue-router": "^4.2.4"
   },

@@ -11,7 +11,7 @@
       <Pack @log="showLog = true"/>
     </div>
     <Teleport to="body" v-if="mouseItem">
-      <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="currentXY" />
+      <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="globalXY"/>
     </Teleport>
     <Log v-model="showLog"/>
   </div>
@@ -38,10 +38,7 @@ const GAME_BUTTONS = [
 
 const showLog = ref(false);
 const showWorkbench = ref(true);
-const currentXY = ref({
-  clientX: 0,
-  clientY: 0
-});
+const globalXY = computed(() => playerStore.globalXY);
 
 const mouseItem = computed(() => playerStore.MOUSE_ITEM);
 
@@ -51,20 +48,19 @@ onMounted(() => {
 
   //   }
   // })
-  (window as any).GenerateCard = GenerateCard;
 });
 
-watch(() => mouseItem.value, (val) => {
-  // 初始化位置会有点问题，这里全局保存下
-  document.body.onmousemove = val ? null : (e: MouseEvent) => {
-    currentXY.value = {
-      clientX: e.clientX,
-      clientY: e.clientY
-    }
-  };
-}, {
-  immediate: true
-})
+// watch(() => mouseItem.value, (val) => {
+//   // 初始化位置会有点问题，这里全局保存下
+//   document.body.onmousemove = val ? null : (e: MouseEvent) => {
+//     currentXY.value = {
+//       clientX: e.clientX,
+//       clientY: e.clientY
+//     }
+//   };
+// }, {
+//   immediate: true
+// })
 </script>
 
 <style lang="less">
