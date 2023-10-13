@@ -10,7 +10,7 @@
         <div class="pack-tool">
             <el-button type="info" @click="giveMeCard">给我卡(随机高价值)</el-button>
             <el-button type="info" @click="showLog">赌狗日记</el-button>
-            
+
             <el-popconfirm title="要移除所有卡片吗？" @confirm="removeCard" effect="dark" :width="200" confirm-button-type="info" confirm-button-text="是" cancel-button-text="否" hide-icon :hide-after="0" transition="none" placement="top">
                 <template #reference>
                     <el-button type="danger">清空背包</el-button>
@@ -28,6 +28,7 @@ import { Grids } from '@/store/types';
 import { GRID_TYPE } from '@/data/const.data';
 import { eventBus } from '@/store/bus';
 import random from 'random';
+import { HIGH_VALUE_LIST } from '@/data/card.data';
 
 const emit = defineEmits(['log']);
 const playerStore = userPlayerStore();
@@ -73,17 +74,7 @@ const giveMeCard = () => {
         ElMessage.warning('麻烦输完了再来！');
         return;
     }
-    const cardList = [
-        'the-apothecary',
-        'house-of-mirrors',
-        'the-doctor',
-        'the-insane-cat',
-        'the-fiend',
-        'the-price-of-devotion',
-        'unrequited-love',
-        'the-demon',
-    ];
-    const itemId = cardList[random.int(0, cardList.length)];
+    const itemId = HIGH_VALUE_LIST[random.int(0, HIGH_VALUE_LIST.length)];
     const item = playerStore.FIND_ITEM_DETAIL(itemId);
     if (!item) return;
     const newItem = playerStore.CREATE_ITEM({
@@ -96,7 +87,11 @@ const giveMeCard = () => {
         ...newItem,
         item
     }, GRID_TYPE.WORK);
-    playerStore.SET_RECORD(itemId, 1, 2);
+    playerStore.SET_RECORD({
+        itemId,
+        num: 1,
+        type: 2
+    });
 };
 const removeCard = () => {
     playerStore.REMOVE_ALL_ITEM();

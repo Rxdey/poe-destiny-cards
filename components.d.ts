@@ -15,6 +15,8 @@ declare module 'vue' {
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
     Log: typeof import('./src/components/Log/Log.vue')['default']
+    LogDetail: typeof import('./src/components/Log/LogDetail.vue')['default']
+    LogFix: typeof import('./src/components/Log/LogFix.vue')['default']
     MiniItemIcon: typeof import('./src/components/MiniItemIcon/MiniItemIcon.vue')['default']
     Pack: typeof import('./src/components/Pack/Pack.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

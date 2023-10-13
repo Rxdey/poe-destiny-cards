@@ -14,6 +14,9 @@
       <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="globalXY"/>
     </Teleport>
     <Log v-model="showLog"/>
+    <div class="log-fixed">
+      <LogDetail />
+    </div>
   </div>
 </template>
 
@@ -22,6 +25,7 @@ import { ref, onMounted, computed, watch } from 'vue';
 import Workbench from '@/components/Workbench/Workbench.vue';
 import Pack from '@/components/Pack/Pack.vue';
 import Log from '@/components/Log/Log.vue';
+import LogDetail from '@/components/Log/LogDetail.vue';
 import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
 import userPlayerStore from '@/store/modules/userPlayerStore';
 import { GenerateCard } from '@/factory';
@@ -49,18 +53,6 @@ onMounted(() => {
   //   }
   // })
 });
-
-// watch(() => mouseItem.value, (val) => {
-//   // 初始化位置会有点问题，这里全局保存下
-//   document.body.onmousemove = val ? null : (e: MouseEvent) => {
-//     currentXY.value = {
-//       clientX: e.clientX,
-//       clientY: e.clientY
-//     }
-//   };
-// }, {
-//   immediate: true
-// })
 </script>
 
 <style lang="less">

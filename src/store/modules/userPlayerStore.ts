@@ -46,7 +46,7 @@ const userPlayerStore = defineStore('player', {
         records: []
     }),
     actions: {
-        SET_GLOBAL_XY (data: MainState['globalXY']) {
+        SET_GLOBAL_XY(data: MainState['globalXY']) {
             this.globalXY = data;
         },
         /** 调整物品数量 */
@@ -158,7 +158,12 @@ const userPlayerStore = defineStore('player', {
             this.SET_ITEMS_NUM(target.id, ITEM.stack);
             this.SET_ITEMS_NUM(current.id, overNum);
         },
-        /** 移动，自动填充 */
+        /**
+         * 自动查找位置移动
+         * @param itemDetail 物品信息
+         * @param position 源位置(暂时只有背包和工作台，为背包时目标为工作台，为工作台时目标为背包)
+         * @returns 
+         */
         AUTO_MOVE(itemDetail: PackItem, position: GRID_TYPE) {
             /** 背包信息 */
             const gridInfo = position === GRID_TYPE.PACK ? this.WORK_GRIDS : this.PACK_GRIDS;
@@ -192,35 +197,22 @@ const userPlayerStore = defineStore('player', {
             }
         },
         /**
-         * 添加日志
+         * 添加日志(后面可能会加字段，先用any)
          * @param itemId 物品id
          * @param res 数量
          * @param type 类型 1 赌卡 2 获取
          */
-        SET_RECORD(itemId: string, num: number, type: number, originNum = 0) {
+        SET_RECORD(params: any) {
+            const { itemId = '', num = 0, type = 1, originNum = 0 } = params;
             const cardInfo = this.FIND_ITEM_DETAIL(itemId);
             if (!cardInfo) return;
             const data = {
                 id: uuidv4(),
                 date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
-                itemId,
-                num,
-                originNum,
-                type,
-                itemName: cardInfo.name
+                itemName: cardInfo.name,
+                ...params
             };
-            this.records.push(data);
-            // const r = (num: number) => {
-            //     if (num > 0) return `小赚 ${num} 张《${cardInfo.name}》`;
-            //     if (num === 0) return '啥事都没有发生';
-            //     return `血亏 ${Math.abs(num)} 张《${cardInfo.name}》`
-            // };
-            // const typeAction: any = {
-            //     1: `赌了一手, ${r(num)}`,
-            //     2: `向系统索取卡片,系统反手发你一张《${cardInfo.name}》`
-            // };
-            // const str = `${data.date} 你${typeAction[type]} `;
-            // console.log(str)
+            this.records.unshift(data);
         },
         /**
          * 清除日志

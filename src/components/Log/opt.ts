@@ -1,12 +1,12 @@
-export default function (data: any) {
+export default function (data: any, title = '总计') {
     return {
         textStyle: {
             fontFamily: 'Inter, "Helvetica Neue", Arial, sans-serif',
         },
-        // title: {
-        //     text: '赌卡统计',
-        //     left: 'center',
-        // },
+        title: {
+            text: title,
+            left: 'center',
+        },
         graphic: {
             type: 'text',
             left: 'center',
@@ -51,7 +51,7 @@ export default function (data: any) {
             {
                 name: '统计数据',
                 type: 'pie',
-                radius: ['40%', '70%'],
+                radius: ['40%', '60%'],
                 avoidLabelOverlap: false,
                 minAngle: 15,
                 // label: {
@@ -61,7 +61,7 @@ export default function (data: any) {
                 emphasis: {
                     label: {
                         show: true,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontWeight: 'bold'
                     }
                 },

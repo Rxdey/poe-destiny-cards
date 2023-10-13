@@ -3134,3 +3134,14 @@ export const CARD_POOL: CardData[] = [
     },
     { name: '群狼之王', stack: 5, id: 'the-wolf', type: 'The Wolf', explicitMod: [{ type: 'uniqueitem', value: '瑞佛物品' }], url: 'https://poedb.tw/cn/hover?t=item&n=The%20Wolf', flavourText: '巨兽无法靠蛮力压制。彪狼教导我们使用诡计替代力量，刺探要害，深切重击。', icon: 'the-wolf.png', class: 'DivinationCards' },
 ];
+
+export const HIGH_VALUE_LIST = [
+    'the-apothecary',
+    'house-of-mirrors',
+    'the-doctor',
+    'the-insane-cat',
+    'the-fiend',
+    'the-price-of-devotion',
+    'unrequited-love',
+    'the-demon',
+]

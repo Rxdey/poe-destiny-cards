@@ -18,9 +18,11 @@
                     <MiniItemIcon :data="customCard" :position="GRID_TYPE.WORK" @grid-click="onGridClick" />
                 </template>
             </div>
-            <!-- <div class="card-button" :class="{ disabled: !customCard }" @click="onUse">工艺(非绑定)</div> -->
             <div class="card-button">
                 <el-button size="small" type="info" :disabled="!customCard" @click="onUse">工艺(非绑定)</el-button>
+            </div>
+            <div class="card-button">
+                <el-button size="small" type="info" @click="autoWork">全自动(测试)</el-button>
             </div>
         </div>
         <div class="workbench__costNum">
@@ -44,6 +46,8 @@ import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
 import { eventBus } from '@/store/bus';
 import { formatNum } from '@/utils';
 import { GRID_TYPE } from '@/data/const.data';
+import { HIGH_VALUE_LIST } from '@/data/card.data';
+import { nextTick } from 'vue';
 
 
 const playerStore = userPlayerStore();
@@ -97,7 +101,7 @@ const onUse = () => {
 };
 
 /** 开始赌卡！ */
-const gamblingCard = () => {
+const gamblingCard = (information = '') => {
     if (!customCard.value) return;
     if (customCard.value.quantity > Math.floor(customCard.value.item.stack / 2)) {
         ElMessage.error('卡片不能超过最大堆叠数量的一半!');
@@ -107,9 +111,59 @@ const gamblingCard = () => {
     const randomNum = random.int(0, range);
     // 结果
     const res = randomNum - customCard.value.quantity;
-    playerStore.SET_RECORD(customCard.value.itemId, res, 1, customCard.value.quantity);
+    playerStore.SET_RECORD({
+        itemId: customCard.value.itemId,
+        num: res,
+        type: 1,
+        originNum: customCard.value.quantity,
+        information
+    });
     playerStore.SET_ITEMS_NUM(customCard.value.id, customCard.value.quantity + res);
+};
+
+const createCard = () => {
+    // 生成一张卡
+    const itemId = HIGH_VALUE_LIST[random.int(0, HIGH_VALUE_LIST.length)];
+    const item = playerStore.FIND_ITEM_DETAIL(itemId);
+    if (!item) return;
+    // 发到工作台
+    const newItem = playerStore.CREATE_ITEM({
+        itemId,
+        // 随机堆叠一半以内的数量
+        quantity: random.int(1, Math.floor(item.stack / 2)),
+        position: GRID_TYPE.PACK,
+        gridId: ''
+    });
+    playerStore.AUTO_MOVE({
+        ...newItem,
+        item
+    }, GRID_TYPE.PACK);
+};
+const running = () => {
+    // 不存在生成一张
+    if (!customCard.value) {
+        createCard();
+        gamblingCard('auto');
+        return;
+    }
+    if (customCard.value.quantity > Math.floor(customCard.value.item.stack / 2)) {
+        // 超出后先清空
+        playerStore.REMOVE_ALL_ITEM();
+        createCard();
+    }
+    gamblingCard('auto');
 }
+/** 自动化测试 */
+const autoWork = () => {
+    let count = 0; // 初始化计数器
+
+    while (count < 100) {
+        // 在此处执行你想要的操作
+        running();
+        count++; // 增加计数器
+    }
+    console.log(playerStore.records.length)
+};
 </script>
 
 <style lang="less">
