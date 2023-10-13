@@ -63,6 +63,10 @@ const userPlayerStore = defineStore('player', {
         REMOVE_ITEM(id: string) {
             this.player.items = this.player.items.filter(item => item.id !== id);
         },
+        /** 移除物品 */
+        REMOVE_ALL_ITEM() {
+            this.player.items = [];
+        },
         /** 查找物品 */
         GET_ITEM_BY_ID(id: string) {
             return this.player.items.find(item => item.id === id);
