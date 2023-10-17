@@ -33,7 +33,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import useLogStore from '@/store/modules/useLogStore';
 import Vchart from 'vue-echarts';
 import { use } from 'echarts/core';
 import { CanvasRenderer } from 'echarts/renderers';
@@ -42,7 +42,7 @@ import { GraphicComponent, TooltipComponent, TitleComponent, LegendComponent } f
 import opt from './opt';
 import LogDetail from './LogDetail.vue';
 
-const store = userPlayerStore();
+const store = useLogStore();
 const active = ref('1');
 
 const clearRecords = () => {

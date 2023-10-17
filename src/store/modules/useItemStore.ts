@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { CARD_POOL } from '@/data/card.data';
 
 interface MainState {
 

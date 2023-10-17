@@ -5,7 +5,6 @@ import { Grids, PackItem } from '@/store/types';
 import { CARD_POOL } from '@/data/card.data';
 import { GRID_TYPE } from '@/data/const.data';
 import { v4 as uuidv4 } from 'uuid';
-import dayjs from 'dayjs';
 
 const grids: Grids[] = [...Array(144)].map((item, i) => ({
     id: `pack-${i + 1}`,
@@ -20,7 +19,6 @@ type CreateDocumentOptions<T, K extends keyof T> = Omit<T, K> & Partial<Pick<T, 
 // type CustomVideoData = CreateDocumentOptions<VideoDetail, 'id'|'cover'>|null;
 interface MainState {
     player: PlayerData,
-    records: any,
     globalXY: {
         clientX: number,
         clientY: number,
@@ -36,14 +34,13 @@ type UpdateItemPosition = {
     id: string
 };
 
-const userPlayerStore = defineStore('player', {
+const usePlayerStore = defineStore('player', {
     state: (): MainState => ({
         player: PLAYER_DATA,
         globalXY: {
             clientX: 0,
             clientY: 0
-        },
-        records: []
+        }
     }),
     actions: {
         SET_GLOBAL_XY(data: MainState['globalXY']) {
@@ -67,11 +64,11 @@ const userPlayerStore = defineStore('player', {
         REMOVE_ALL_ITEM() {
             this.player.items = [];
         },
-        /** 查找物品 */
-        GET_ITEM_BY_ID(id: string) {
-            return this.player.items.find(item => item.id === id);
+        /** 根据物品记录id查找物品 */
+        GET_ITEM_BY_ID(id: string): UserItemType | null {
+            return this.player.items.find(item => item.id === id) || null;
         },
-        /** 根据id查询物品完整信息 */
+        /** 根据物品的id查询物品完整信息 */
         FIND_ITEM_DETAIL(id: string) {
             return CARD_POOL.find(c => c.id === id);
         },
@@ -140,6 +137,8 @@ const userPlayerStore = defineStore('player', {
                 current.gridId = gridId;
                 return;
             }
+            // 相同位置不处理
+            if (current.id === target.id) return;
             // 如果目标和当前非同一个物品，交换位置
             if (target.itemId !== current.itemId) {
                 [target.position, target.gridId, current.position, current.gridId] = [current.position, current.gridId, target.position, target.gridId];
@@ -196,30 +195,6 @@ const userPlayerStore = defineStore('player', {
                 }
             }
         },
-        /**
-         * 添加日志(后面可能会加字段，先用any)
-         * @param itemId 物品id
-         * @param res 数量
-         * @param type 类型 1 赌卡 2 获取
-         */
-        SET_RECORD(params: any) {
-            const { itemId = '', num = 0, type = 1, originNum = 0 } = params;
-            const cardInfo = this.FIND_ITEM_DETAIL(itemId);
-            if (!cardInfo) return;
-            const data = {
-                id: uuidv4(),
-                date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
-                itemName: cardInfo.name,
-                ...params
-            };
-            this.records.unshift(data);
-        },
-        /**
-         * 清除日志
-         */
-        CLEAR_RECORDS() {
-            this.records = [];
-        }
     },
     getters: {
         /** 拆开写方便阅读 */
@@ -271,4 +246,4 @@ const userPlayerStore = defineStore('player', {
     },
 });
 
-export default userPlayerStore;
+export default usePlayerStore;

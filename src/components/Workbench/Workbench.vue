@@ -13,16 +13,18 @@
             </div>
         </div>
         <div class="workbench__card">
-            <div class="card-grid" @click="onGridClick">
-                <template v-if="customCard">
-                    <MiniItemIcon :data="customCard" :position="GRID_TYPE.WORK" @grid-click="onGridClick" />
-                </template>
+            <div class="card-grid" @click="onGridClick($event, workGrid)" @dragenter="dragenter" @drop="drop($event, workGrid)" @dragleave="dragleave">
+
+                <div v-if="customCard">
+                    <MiniItemIcon :data="customCard" :position="GRID_TYPE.WORK" @grid-click="onGridClick($event, workGrid)" />
+                </div>
+
             </div>
             <div class="card-button">
                 <el-button size="small" type="info" :disabled="!customCard" @click="onUse">工艺(非绑定)</el-button>
             </div>
             <div class="card-button">
-                <el-button size="small" type="info" @click="autoWork">全自动(测试)</el-button>
+                <!-- <el-button size="small" type="info" @click="autoWork">全自动(测试)</el-button> -->
             </div>
         </div>
         <div class="workbench__costNum">
@@ -41,16 +43,21 @@ import { ref, onMounted, computed, watch } from 'vue';
 import random from 'random';
 import { useValue } from '@/hooks/useValue';
 import { list, cottonList } from './options';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import usePlayerStore from '@/store/modules/usePlayerStore';
+import useLogStore from '@/store/modules/useLogStore';
 import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
-import { eventBus } from '@/store/bus';
+import { Grids } from '@/store/types';
 import { formatNum } from '@/utils';
 import { GRID_TYPE } from '@/data/const.data';
 import { HIGH_VALUE_LIST } from '@/data/card.data';
-import { nextTick } from 'vue';
+import { useGrids } from '@/hooks/useGrids';
 
-
-const playerStore = userPlayerStore();
+const workGrid: Grids = {
+    id: 'work',
+    type: GRID_TYPE.WORK
+};
+const playerStore = usePlayerStore();
+const logStore = useLogStore();
 const emit = defineEmits(['update:modelValue']);
 const props = defineProps({
     modelValue: {
@@ -64,31 +71,11 @@ const value = useValue(props, emit);
 
 const customCard = computed(() => playerStore.WORK_ITEM);
 
+const { dragenter, dragleave, drop, onGridClick } = useGrids(GRID_TYPE.WORK);
+
 const onSelect = ({ key = 0 }) => {
     active.value = key;
 }
-/** 鼠标单张放置 */
-const splitSingleItems = () => {
-    if (!playerStore.MOUSE_ITEM) return;
-    playerStore.SPLIT_SINGLE_ITEMS({
-        gridId: 'work',
-        id: playerStore.MOUSE_ITEM.id,
-        position: GRID_TYPE.WORK
-    });
-};
-const onGridClick = (event: MouseEvent) => {
-    if (!playerStore.MOUSE_ITEM) return;
-    // 检查 Shift 键是否按下
-    if (event.shiftKey) {
-        splitSingleItems();
-        return;
-    }
-    playerStore.UPDATE_ITEM_POSITION({
-        gridId: 'work',
-        id: playerStore.MOUSE_ITEM.id,
-        position: GRID_TYPE.WORK,
-    });
-};
 /**
  * 使用工作台
  */
@@ -111,7 +98,7 @@ const gamblingCard = (information = '') => {
     const randomNum = random.int(0, range);
     // 结果
     const res = randomNum - customCard.value.quantity;
-    playerStore.SET_RECORD({
+    logStore.SET_RECORD({
         itemId: customCard.value.itemId,
         num: res,
         type: 1,
@@ -162,7 +149,6 @@ const autoWork = () => {
         running();
         count++; // 增加计数器
     }
-    console.log(playerStore.records.length)
 };
 </script>
 
