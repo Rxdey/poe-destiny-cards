@@ -63,8 +63,9 @@ const filterData = (originNum = 0, compare = 1) => {
             1: item.originNum === originNum,
             2: item.originNum >= originNum
         }
-        return !originNum || (item.type === 1 && action[compare]);
+        return item.type === 1 && (!originNum || action[compare]);
     });
+    console.log(totle);
     const add = totle.filter((item: any) => item.num > 0);
     const minus = totle.filter((item: any) => item.num < 0);
     const unchanged = totle.filter((item: any) => item.num === 0);

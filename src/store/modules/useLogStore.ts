@@ -41,7 +41,10 @@ const useLogStore = defineStore('log', {
     },
     getters: {
 
-    }
+    },
+    persist: {
+        key: 'log',
+    },
 });
 
 export default useLogStore;
