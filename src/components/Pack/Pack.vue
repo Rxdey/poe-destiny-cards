@@ -1,8 +1,8 @@
 <template>
     <div class="pack">
         <div class="pack-grid">
-            <div class="pack-item" :class="{ hover: !!item.inner }" v-for="item in packGrids" :key="item.id" @click="onGridClick($event, item)">
-                <div v-if="item.inner">
+            <div class="pack-item" v-for="item in packGrids" :key="item.id" @click="onGridClick($event, item)" @dragenter="dragenter" @drop="drop($event, item)" @dragleave="dragleave">
+                <div class="pack-item-inner" v-if="item.inner">
                     <MiniItemIcon :data="item.inner" :position="GRID_TYPE.PACK" @gridClick="onGridClick($event, item)" />
                 </div>
             </div>
@@ -21,47 +21,25 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watch } from 'vue';
+import { ref, onMounted, computed, watch, nextTick } from 'vue';
 import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
-import userPlayerStore from '@/store/modules/userPlayerStore';
-import { Grids } from '@/store/types';
+import usePlayerStore from '@/store/modules/usePlayerStore';
+import useLogStore from '@/store/modules/useLogStore';
+import { Grids, PackItem } from '@/store/types';
 import { GRID_TYPE } from '@/data/const.data';
 import { eventBus } from '@/store/bus';
 import random from 'random';
 import { HIGH_VALUE_LIST } from '@/data/card.data';
+import { useGrids } from '@/hooks/useGrids';
 
 const emit = defineEmits(['log']);
-const playerStore = userPlayerStore();
+const playerStore = usePlayerStore();
+const logStore = useLogStore();
 const packGrids = computed(() => playerStore.PACK_GRIDS);
-/** 鼠标单张放置 */
-const splitSingleItems = (data: Grids) => {
-    if (!playerStore.MOUSE_ITEM) return;
-    const { type, id } = data;
-    playerStore.SPLIT_SINGLE_ITEMS({
-        gridId: id,
-        id: playerStore.MOUSE_ITEM.id,
-        position: type
-    });
-};
-const onGridClick = (event: MouseEvent, data: Grids) => {
-    if (!playerStore.MOUSE_ITEM) return;
-    const { type, id } = data;
-    // 检查 Shift 键是否按下
-    if (event.shiftKey) {
-        splitSingleItems(data);
-        return;
-    }
-    playerStore.UPDATE_ITEM_POSITION({
-        gridId: id,
-        id: playerStore.MOUSE_ITEM.id,
-        position: type
-    });
-};
+
+const { dragenter, dragleave, drop, onGridClick } = useGrids(GRID_TYPE.PACK);
 
 const showLog = () => {
-    // ElMessage.warning('还没写好');
-    // const str = `${}`;
-    // console.log(playerStore.records);
     emit('log');
 };
 
@@ -87,7 +65,7 @@ const giveMeCard = () => {
         ...newItem,
         item
     }, GRID_TYPE.WORK);
-    playerStore.SET_RECORD({
+    logStore.SET_RECORD({
         itemId,
         num: 1,
         type: 2

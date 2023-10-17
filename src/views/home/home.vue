@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <div class="stage">
-      <!-- <div :class="['img-button', btn.key]" v-for="btn in GAME_BUTTONS" :key="btn.key">
+      <div :class="['img-button', btn.key]" v-for="btn in GAME_BUTTONS" :key="btn.key">
         <img :src="`/img/${btn.key}.webp`">
-      </div> -->
+      </div>
     </div>
     <div class="menu">
       <!-- <Stash v-model="showStash" /> -->
@@ -27,11 +27,11 @@ import Pack from '@/components/Pack/Pack.vue';
 import Log from '@/components/Log/Log.vue';
 import LogDetail from '@/components/Log/LogDetail.vue';
 import MiniItemIcon from '@/components/MiniItemIcon/MiniItemIcon.vue';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import usePlayerStore from '@/store/modules/usePlayerStore';
 import { GenerateCard } from '@/factory';
 import { GRID_TYPE } from '@/data/const.data';
 
-const playerStore = userPlayerStore();
+const playerStore = usePlayerStore();
 
 const GAME_BUTTONS = [
   { name: '花园工艺台', key: 'HarvestWorkbench' },

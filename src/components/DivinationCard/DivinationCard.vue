@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue';
 // import { useRouter, useRoute } from 'vue-router';
-// import userPlayerStore from '@/store/modules/userPlayerStore';;
+// import usePlayerStore from '@/store/modules/usePlayerStore';;
 import { CARD_POOL } from '@/data/card.data';
 import { CardData } from '@/types/data';
 
@@ -53,7 +53,7 @@ const props = withDefaults(defineProps<Props>(), {
   quantity: 1,
   disabled: false
 })
-// const playerStore = userPlayerStore();
+// const playerStore = usePlayerStore();
 const current = computed<CardData | null>(() => {
   if (props.type) return CARD_POOL.find((item: CardData) => item.type === props.type) || null;
   if (!props.type && props.name) return CARD_POOL.find((item: CardData) => item.name === props.name) || null;

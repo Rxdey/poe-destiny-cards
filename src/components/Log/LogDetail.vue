@@ -30,9 +30,9 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import useLogStore from '@/store/modules/useLogStore';
 
-const store = userPlayerStore();
+const store = useLogStore();
 const records = computed(() => store.records);
 </script>
 

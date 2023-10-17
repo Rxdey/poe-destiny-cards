@@ -37,7 +37,7 @@
 import { ref, onMounted, computed, watch, getCurrentInstance } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import DivinationCard from '@/components/DivinationCard/DivinationCard.vue';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import usePlayerStore from '@/store/modules/usePlayerStore';
 import { useValue } from '@/hooks/useValue';
 
 const filterOptions = [
@@ -46,7 +46,7 @@ const filterOptions = [
   { label: '已成套', value: 3 },
   { label: '尚未取得', value: 4 },
 ];
-const playerStore = userPlayerStore();
+const playerStore = usePlayerStore();
 const emit = defineEmits(['update:modelValue']);
 const props = defineProps({
   modelValue: {

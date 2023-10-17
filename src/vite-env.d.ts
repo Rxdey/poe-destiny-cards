@@ -3,3 +3,5 @@
 interface window {
     [key: string]: any
 }
+
+declare module 'draggable-polyfill';

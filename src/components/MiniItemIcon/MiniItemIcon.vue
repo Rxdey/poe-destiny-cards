@@ -1,8 +1,8 @@
 <template>
-    <el-popover placement="top" :width="160" effect="dark" :show-arrow="false" :popper-style="popupStyle" :disabled="moveable" v-if="data && data.item" :hide-after="0" :show-after="0" :offset="0" :fallbackPlacements="['left-start']" transition="none" :visible="show">
+    <el-popover placement="top" :width="160" effect="dark" :show-arrow="false" :popper-style="popupStyle" :disabled="moveable || dragable" v-if="data && data.item" :hide-after="0" :show-after="0" :offset="0" :fallbackPlacements="['left-start']" transition="none" :visible="show">
         <template #reference>
-            <div class="mini-item-icon" :class="{ moveable }" @click.stop="onClick" ref="custom" @mouseover="onMouseOver" @mouseout="onMouseOut" @mouseleave="onMouseOut">
-                <img src="/img/InventoryIcon.webp">
+            <div class="mini-item-icon" :class="{ moveable }" @click.stop="onClick" ref="custom" @mouseover="onMouseOver" @mouseout="onMouseOut" @mouseleave="onMouseOut" draggable="true" @dragstart="dragstart" @drag="drag" @dragend="dragend">
+                <img src="/img/InventoryIcon.webp" draggable="false">
                 <div class="card-num" :class="{ full: data.quantity === data.item.stack }">{{ data.quantity }}</div>
             </div>
         </template>
@@ -23,11 +23,11 @@ import { ref, onMounted, computed, watch, onBeforeUnmount, StyleValue } from 'vu
 import { Check } from '@element-plus/icons-vue'
 import DivinationCard from '../DivinationCard/DivinationCard.vue';
 import { PackItem } from '@/store/types';
-import userPlayerStore from '@/store/modules/userPlayerStore';
+import usePlayerStore from '@/store/modules/usePlayerStore';
 import { GRID_TYPE } from '@/data/const.data';
 import Slider from '../slider/slider.vue';
 
-const playerStore = userPlayerStore();
+const playerStore = usePlayerStore();
 
 const popupStyle: StyleValue = {
     'background-color': 'transparent',
@@ -53,6 +53,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 const show = ref(false);
 const moveable = ref(false);
+const dragable = ref(false);
 const showSplit = ref(false);
 // 分割数量
 const splitVal = ref(1);
@@ -60,6 +61,20 @@ const splitVal = ref(1);
 const inputVal = ref('');
 
 const custom = ref<HTMLDivElement | null>(null);
+
+const dragstart = (e: DragEvent) => {
+    // console.log(e);
+    dragable.value = true;
+    if (!e.dataTransfer) return;
+    e.dataTransfer.setData('dragItemId', props.data.id);
+}
+const drag = (e: DragEvent) => {
+    // console.log(e);
+};
+const dragend = (e: DragEvent) => {
+    // console.log('end');
+    dragable.value = false;
+};
 
 /** 确认拆分 */
 const onSubmitSplit = () => {
@@ -156,6 +171,10 @@ const mouseMove = (e: MouseEvent) => {
 
 /** 结束移动 */
 const handleReset = () => {
+    const dragObj = document.querySelector('.drag-obj');
+    if (dragObj) {
+        document.body.removeChild(dragObj);
+    }
     if (!custom.value) return;
     moveable.value = false;
     document.body.removeEventListener('mousemove', mouseMove)
