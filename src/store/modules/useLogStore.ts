@@ -19,7 +19,7 @@ const useLogStore = defineStore('log', {
          * @param type 类型 1 赌卡 2 获取
          */
         SET_RECORD(params: any) {
-            console.log(params);
+            // console.log(params);
             const { itemId = '', num = 0, type = 1, originNum = 0 } = params;
             const playerStore = usePlayerStore();
             const cardInfo = playerStore.FIND_ITEM_DETAIL(itemId);

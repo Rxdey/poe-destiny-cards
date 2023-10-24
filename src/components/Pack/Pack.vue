@@ -47,12 +47,13 @@ const giveMeCard = () => {
     const cardLength = playerStore.player.items.reduce((p, n) => {
         p += n.quantity;
         return p;
-    }, 0)
+    }, 0);
     if (cardLength >= 10) {
         ElMessage.warning('麻烦输完了再来！');
         return;
     }
-    const itemId = HIGH_VALUE_LIST[random.int(0, HIGH_VALUE_LIST.length)];
+    const index = random.int(0, HIGH_VALUE_LIST.length - 1);
+    const itemId = HIGH_VALUE_LIST[index];
     const item = playerStore.FIND_ITEM_DETAIL(itemId);
     if (!item) return;
     const newItem = playerStore.CREATE_ITEM({
