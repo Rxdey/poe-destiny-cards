@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <el-alert title="仅供娱乐，与游戏内概率不同，无参考价值" type="info" effect="dark" />
     <div class="stage">
       <div :class="['img-button', btn.key]" v-for="btn in GAME_BUTTONS" :key="btn.key">
         <img :src="`/img/${btn.key}.webp`">
@@ -8,15 +9,42 @@
     <div class="menu">
       <!-- <Stash v-model="showStash" /> -->
       <Workbench v-model="showWorkbench" />
-      <Pack @log="showLog = true"/>
+      <Pack @log="showLog = true" @setting="showSetting = true" />
     </div>
     <Teleport to="body" v-if="mouseItem">
-      <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="globalXY"/>
+      <MiniItemIcon :data="mouseItem" :position="GRID_TYPE.MOUSE" :currentXY="globalXY" />
     </Teleport>
-    <Log v-model="showLog"/>
+    <Log v-model="showLog" />
     <div class="log-fixed">
       <LogDetail />
     </div>
+
+    <!-- 先随便搞个 -->
+    <el-dialog v-model="showSetting" title="概率调整" width="600px">
+      <div class="setting-content">
+        <div class="setting-slider">
+          <div class="slider-label">结果均值趋势(默认0,结果只是趋近非一定): {{ form.trend }}%</div>
+          <div class="slider-desc">
+            <span>趋近减半</span>
+            <span>趋近不变</span>
+            <span>趋近翻倍</span>
+          </div>
+          <el-slider v-model="form.trend" :min="-100" :max="100" :format-tooltip="val => `${val}%`" :marks="{ 0: '0' }" />
+        </div>
+        <div class="setting-slider">
+          <div class="slider-label">标准差系数调整(默认1)</div>
+          <el-input-number v-model="form.ratio" :precision="2" :step="0.1" :max="10" />
+        </div>
+      </div>
+      <template #footer>
+        <span class="dialog-footer">
+          <el-button type="default" @click="showSetting = false">取消</el-button>
+          <el-button type="info" @click="onSubmit">
+            确认修改
+          </el-button>
+        </span>
+      </template>
+    </el-dialog>
   </div>
 </template>
 
@@ -41,17 +69,24 @@ const GAME_BUTTONS = [
 ];
 
 const showLog = ref(false);
+const showSetting = ref(false);
 const showWorkbench = ref(true);
 const globalXY = computed(() => playerStore.globalXY);
+const form = ref({
+  trend: 0,
+  ratio: 1
+});
 
 const mouseItem = computed(() => playerStore.MOUSE_ITEM);
 
+const onSubmit = () => {
+  playerStore.UPDATE_SETTING(form.value);
+  showSetting.value = false;
+  ElMessage.info('已修改');
+};
 onMounted(() => {
-  // document.addEventListener('keydown', (e: KeyboardEvent) => {
-  //   if (e.key === 'i') {
-
-  //   }
-  // })
+  form.value.trend = playerStore.setting.trend;
+  form.value.ratio = playerStore.setting.ratio;
 });
 </script>
 

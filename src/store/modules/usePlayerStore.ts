@@ -22,6 +22,10 @@ interface MainState {
     globalXY: {
         clientX: number,
         clientY: number,
+    },
+    setting: {
+        trend: number,
+        ratio: number,
     }
 }
 
@@ -40,9 +44,19 @@ const usePlayerStore = defineStore('player', {
         globalXY: {
             clientX: 0,
             clientY: 0
+        },
+        setting: {
+            trend: 0,
+            ratio: 1
         }
     }),
     actions: {
+        UPDATE_SETTING(data: { trend: number; ratio: number; }) {
+            this.setting = {
+                ...this.setting,
+                ...data
+            };
+        },
         SET_GLOBAL_XY(data: MainState['globalXY']) {
             this.globalXY = data;
         },

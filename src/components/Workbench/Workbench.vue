@@ -86,6 +86,25 @@ const onUse = () => {
     }
     gamblingCard();
 };
+/**
+ * 随机数
+ * @param n 传入数量
+ * @param mean 均值
+ * @param ratio 系数，控制标准差大小
+ */
+function generateCardChange(n: number, mean = 0, ratio = 1) {
+    const variance = n * ratio;
+    // 使用Box-Muller变换生成正态分布随机数
+    const u1 = Math.random();
+    const u2 = Math.random();
+    const z0 = Math.sqrt(-2.0 * Math.log(u1)) * Math.cos(2.0 * Math.PI * u2);
+    let change = mean + Math.sqrt(variance) * z0;
+    // 在 -n, n范围内截断(不知道重roll会不会好一点)
+    change = Math.max(-n, change);
+    change = Math.min(n, change);
+
+    return Math.round(change);
+}
 
 /** 开始赌卡！ */
 const gamblingCard = (information = '') => {
@@ -94,18 +113,20 @@ const gamblingCard = (information = '') => {
         ElMessage.error('卡片不能超过最大堆叠数量的一半!');
         return;
     }
-    const range = (customCard.value.quantity * 2);
-    const randomNum = random.int(0, range);
-    // 结果
-    const res = randomNum - customCard.value.quantity;
+    const range = customCard.value.quantity;
+    const trend = playerStore.setting.trend;
+    const ratio = playerStore.setting.ratio;
+  
+    const randomNum = generateCardChange(range, range * (trend / 100), ratio);
+    // console.log(randomNum)
     logStore.SET_RECORD({
         itemId: customCard.value.itemId,
-        num: res,
+        num: randomNum,
         type: 1,
         originNum: customCard.value.quantity,
         information
     });
-    playerStore.SET_ITEMS_NUM(customCard.value.id, customCard.value.quantity + res);
+    playerStore.SET_ITEMS_NUM(customCard.value.id, customCard.value.quantity + randomNum);
 };
 
 const createCard = () => {

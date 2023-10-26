@@ -16,6 +16,7 @@
                     <el-button type="danger">清空背包</el-button>
                 </template>
             </el-popconfirm>
+            <el-button type="info" @click="showSetting">设置概率</el-button>
         </div>
     </div>
 </template>
@@ -32,13 +33,16 @@ import random from 'random';
 import { HIGH_VALUE_LIST } from '@/data/card.data';
 import { useGrids } from '@/hooks/useGrids';
 
-const emit = defineEmits(['log']);
+const emit = defineEmits(['log', 'setting']);
 const playerStore = usePlayerStore();
 const logStore = useLogStore();
 const packGrids = computed(() => playerStore.PACK_GRIDS);
 
 const { dragenter, dragleave, drop, onGridClick } = useGrids(GRID_TYPE.PACK);
 
+const showSetting = () => {
+    emit('setting');
+};
 const showLog = () => {
     emit('log');
 };

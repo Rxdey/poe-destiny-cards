@@ -8,10 +8,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     DivinationCard: typeof import('./src/components/DivinationCard/DivinationCard.vue')['default']
+    ElAlert: typeof import('element-plus/es')['ElAlert']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElDialog: typeof import('element-plus/es')['ElDialog']
     ElDrawer: typeof import('element-plus/es')['ElDrawer']
+    ElInputNumber: typeof import('element-plus/es')['ElInputNumber']
     ElPopconfirm: typeof import('element-plus/es')['ElPopconfirm']
     ElPopover: typeof import('element-plus/es')['ElPopover']
+    ElSlider: typeof import('element-plus/es')['ElSlider']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
     Log: typeof import('./src/components/Log/Log.vue')['default']
