@@ -92,7 +92,7 @@ const onUse = () => {
  * @param mean 均值
  * @param ratio 系数，控制标准差大小
  */
-function generateCardChange(n: number, mean = 0, ratio = 1) {
+function generateCardChange(n: number, mean = 0, ratio = 0.75) {
     const variance = n * ratio;
     // 使用Box-Muller变换生成正态分布随机数
     const u1 = Math.random();

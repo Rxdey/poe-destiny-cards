@@ -32,7 +32,7 @@
           <el-slider v-model="form.trend" :min="-100" :max="100" :format-tooltip="val => `${val}%`" :marks="{ 0: '0' }" />
         </div>
         <div class="setting-slider">
-          <div class="slider-label">标准差系数调整(默认1)</div>
+          <div class="slider-label">标准差系数调整(默认0.75)</div>
           <el-input-number v-model="form.ratio" :precision="2" :step="0.1" :max="10" />
         </div>
       </div>
@@ -74,7 +74,7 @@ const showWorkbench = ref(true);
 const globalXY = computed(() => playerStore.globalXY);
 const form = ref({
   trend: 0,
-  ratio: 1
+  ratio: 0.75
 });
 
 const mouseItem = computed(() => playerStore.MOUSE_ITEM);

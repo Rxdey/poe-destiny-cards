@@ -47,7 +47,7 @@ const usePlayerStore = defineStore('player', {
         },
         setting: {
             trend: 0,
-            ratio: 1
+            ratio: 0.75
         }
     }),
     actions: {
